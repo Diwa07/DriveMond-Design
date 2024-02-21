@@ -42,17 +42,17 @@ const Price = () => {
               <span className="text-[#00A08D] text-4xl">DriveMond</span> Script
               Pricing
             </h1>
-            <h1 className="py-4 text-xl mb-7">
+            <h1 className="py-4  text-[1rem] lg:text-xl mb-7">
               <p className="mb-2">
                 
-                Purchase the DriveMond script in the best package that suits you
-              </p>
-              best. Start your ride sharing & parcel delivery project today!
+                Purchase the DriveMond script in the best package that </p> <p> suits you
+             
+             best. Start your ride sharing & parcel delivery </p><center>project today!</center> 
             </h1>
             <div className="flex justify-center w-screen mb-6 ">
               <div className="w-[50%] lg:w-[80%]">
                 <div className="flex mb-[4rem] font-semibold justify-center">
-                  <p className="border-[2px] rounded-3xl text-2xl">
+                  <p className="border-[2px] flex rounded-3xl text-2xl">
                     <button
                       className={`px-[2rem] rounded-2xl py-3 ${
                         showAnnual ? "bg-[#FFFFFF] text-[#00A08D]" : ""
@@ -73,15 +73,15 @@ const Price = () => {
                 </div>
 
                 {showAnnual && (
-                  <div className="grid items-center grid-cols-1 lg:grid-cols-3" id="Lifetime">
+                  <div className="grid items-center grid-cols-1 lg:grid-cols-3" >
                     {postData &&
                       postData.map((item, id) => {
                         return (
                           <div
                             className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-5 ${
                               id === 1
-                                ? "h-[35rem] text-white "
-                                : "h-[31rem] text-[black] "
+                                ? " h-auto lg:h-[35rem] text-white "
+                                : " h-auto lg:h-[31rem] text-[black] "
                             } w-full ${
                               id === 1 ? "bg-[#00A08D] " : "bg-[white]"
                             } ${id === 1 ? "mt-[-1rem] text-[white] " : ""}`}
@@ -159,8 +159,8 @@ const Price = () => {
                           <div
                             className={` text-black border-[1px] border-[#00423A] mb-7 rounded-xl flex flex-col justify-between py-5 px-5 ${
                               id === 2
-                                ? "h-[35rem] text-white "
-                                : "h-[32rem] text-[black] "
+                              ? " h-auto lg:h-[35rem] text-white "
+                              : " h-auto lg:h-[31rem] text-[black] "
                             } w-full ${
                               id === 2 ? "bg-[#00A08D] " : "bg-[white]"
                             } ${id === 2 ? "mt-[-1rem] text-[white] " : ""}`}

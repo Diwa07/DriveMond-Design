@@ -16,17 +16,17 @@ const SecondPage = () => {
         <div className="absolute  py-7 mt-[2rem] w-screen top-0 flex flex-col items-center">
           <h1 className="py-5 text-2xl">What Comes with DriveMond? </h1>
 
-          <h2 className="text-xl">
+          <h2 className="px-5 text-xl ">
             DriveMond ensures a total ride sharing experience for all its users,
             such as drivers,
             <p className="flex justify-center">customers, and the admin.</p>
           </h2>
 
-          <div className="grid  grid-cols-2 lg:grid-cols-4  mt-[5rem]  gap-11">
+          <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-[5rem]  gap-11">
             {postData &&
               postData.map((item, id) => {
                 return (
-                  <div className="h-[17rem] py-5 flex flex-col   items-center px-5 justify-between p-2 w-[13rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
+                  <div className="h-[17rem] py-5 flex flex-col border border-white lg:border lg:border-[#003F37]   items-center px-5 justify-between p-2 w-[13rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
                     <p className="polygon bg-[#006156d0]   h-[3rem] w-[3rem] items-center flex justify-center text-xl text-white">
                      
                       <HiOutlineComputerDesktop />

@@ -10,7 +10,7 @@ const HeroSection = () => {
         <Nav />
         <div className="grid items-center grid-cols-1 gap-10 py-8 lg:grid-cols-2 px-9">
           <div className=" text-[#00A08D]  ">
-            <h1 className="text-4xl  text-[#00423A]   font-normal h-28">
+            <h1 className="text-4xl  text-[#00423A]   font-normal ">
 
               <p className="mb-4">
                 
