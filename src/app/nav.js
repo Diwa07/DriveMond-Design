@@ -12,7 +12,10 @@ const Nav = () => {
     <>
       <nav className="flex w-screen py-3   justify-between  px-7 xl:h-20 items-center bg-[#FFFFFF] ">
         <div className="flex-shrink-0">
-          <img src={logo} alt="logo" className="w-24 md:w-32" />
+          <Link to="/">
+          
+            <img src={logo} alt="logo" className="w-24 md:w-32" />
+          </Link>
         </div>
         <ol className="hidden py-1 font-medium lg:flex px-7 gap-7">
           <Link to="/">
@@ -52,7 +55,7 @@ const Nav = () => {
             {showNav && (
               <div className="absolute right-0 z-50 w-[40%] h-fit  bg-white border border-gray-300 top-4">
                 <div className="hover:text-[red] cursor-pointer mb-2  text-3xl flex justify-end px-7 py-1  ">
-                  {" "}
+                
                   <MdOutlineCancel
                     onClick={() => {
                       setShowNav(false);
@@ -60,9 +63,11 @@ const Nav = () => {
                   />
                 </div>
                 <ol className="px-4 py-4 ">
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[#808080be] py-2">
-                    Demo
-                  </li>
+                  <Link to="/">
+                    <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[#808080be] py-2">
+                      Demo
+                    </li>
+                  </Link>
                   <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[gray] py-2">
                     Features
                   </li>

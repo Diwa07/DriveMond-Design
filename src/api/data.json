@@ -1,58 +1,75 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "icon" : " <HiOutlineComputerDesktop/>",
-        "title": "Admin Panel",
-        "message": "Add drivers & vehicles, manage customers, monitor trip logs, etc.",
-        "action": " Explore Demo"
-      },
-      {
-        "id": 2,
-        "icon" : "<MdMobileFriendly/>",
-        "title": "User App",
-        "message": "Customers can request a ride, send parcels, get loyalty points, etc.",
-        "action": " Download App"
-      },
-      {
-        "id": 3,
-        "icon" : "<IoPeopleCircleSharp/>",
-        "title": "Driver App",
-        "message": "Drivers can bid for ride requests, earn performance bonus, etc",
-        "action": " Download App"
-      },
-      {
-        "id": 4,
-        "icon" : "<BsGlobe/>",
-        "title": "Website",
-        "message": "Admin can promote business, and invite drivers & users to join.",
-        "action": " Explore Demo"
-      }
-     
-    ],
+  "posts": [
+    {
+      "id": 1,
 
-    "prices":   [
-        {
-          "type": "Basic",
-          "price": "$266",
-          "discountPrice": "$159",
-          "saving": "40% Savings",
+      "title": "Admin Panel",
+      "message": "Add drivers & vehicles, manage customers, monitor trip logs, etc.",
+      "action": " Explore Demo"
+    },
+    {
+      "id": 2,
 
-          "features": ["Lifetime Update", "Landing Page", "DriveMond Admin Panel", "DriveMond User App"]   },
-        {
-          "type": "Combo",
-          "price": "$399",
-          "discountPrice": "$239",
-          "saving": "40% Savings",
-          "features": ["Lifetime Update", "Landing Page", "DriveMond Admin Panel", "DriveMond User App", "DriveMond Driver App"]
-        },
-        {
-          "type": "Agency",
-          "price": "$1995",
-          "discountPrice": "$399",
-          "saving": "  80% Savings",
-        
-          "features": ["Lifetime Update", "Landing Page", "DriveMond Admin Panel", "DriveMond User App",  "DriveMond Driver App"]
-        }
+      "title": "User App",
+      "message": "Customers can request a ride, send parcels, get loyalty points, etc.",
+      "action": " Download App"
+    },
+    {
+      "id": 3,
+
+      "title": "Driver App",
+      "message": "Drivers can bid for ride requests, earn performance bonus, etc",
+      "action": " Download App"
+    },
+    {
+      "id": 4,
+
+      "title": "Website",
+      "message": "Admin can promote business, and invite drivers & users to join.",
+      "action": " Explore Demo"
+    }
+  ],
+
+  "prices": [
+    {
+      "type": "Basic",
+
+      "discountPrice": "$159",
+      "saving": "40% Savings",
+
+      "features": [
+        "Lifetime Update",
+        "Landing Page",
+        "DriveMond Admin Panel",
+        "DriveMond User App"
       ]
-  }
+    },
+    {
+      "type": "Combo",
+
+      "discountPrice": "$239",
+      "saving": "40% Savings",
+      "features": [
+        "Lifetime Update",
+        "Landing Page",
+        "DriveMond Admin Panel",
+        "DriveMond User App",
+        "DriveMond Driver App"
+      ]
+    },
+    {
+      "type": "Agency",
+
+      "discountPrice": "$399",
+      "saving": "  80% Savings",
+
+      "features": [
+        "Lifetime Update",
+        "Landing Page",
+        "DriveMond Admin Panel",
+        "DriveMond User App",
+        "DriveMond Driver App"
+      ]
+    }
+  ]
+}
