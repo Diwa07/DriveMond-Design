@@ -64,25 +64,25 @@ const Nav = () => {
                 </div>
                 <ol className="px-4 py-4 ">
                   <Link to="/">
-                    <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[#808080be] py-2">
+                    <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[#808080be] py-2">
                       Demo
                     </li>
                   </Link>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
                     Features
                   </li>
                   <Link to="/price">
-                    <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[gray] py-2">
+                    <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
                       Pricing
                     </li>
                   </Link>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
                     Installation
                   </li>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
                     Feedback
                   </li>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
                     Get Help
                   </li>
                   <li className="flex justify-center">

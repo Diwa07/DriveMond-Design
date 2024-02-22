@@ -10,17 +10,17 @@ const HeroSection = () => {
         <Nav />
         <div className="grid items-center grid-cols-1 gap-10 py-8 lg:grid-cols-2 px-9">
           <div className=" text-[#00A08D]  ">
-            <h1 className="text-4xl  text-[#00423A]   font-normal ">
+            <h1 className="text-3xl md:text-4xl  text-[#00423A]   font-normal ">
 
-              <p className="mb-4">
+              <p className="mb-1 md:mb-4">
                 
                 Complete
-                <span className="text-[#00A08D]  font-bold text-4xl">
+                <span className="text-[#00A08D]  font-bold text-3xl md:text-4xl">
                   
                   Ride Sharing and Parcel
                 </span>
               </p>
-              <span className="text-[#00A08D] font-bold   text-4xl">
+              <span className="text-[#00A08D] font-bold   text-3xl md:text-4xl">
                 Delivery
               </span>
               Solution
@@ -29,11 +29,11 @@ const HeroSection = () => {
               DriveMond is a complete ride sharing & parcel delivery solution
               that comes with PHP script.
             </h2>
-            <div className="flex py-9 gap-7">
-              <button className="md:px-7 px-2 py-5 rounded-2xl bg-[#003C32] font-bold text-2xl text-white">
+            <div className="flex gap-2 py-9 md:gap-7">
+              <button className="md:px-7 px-5 py-2 md:py-5 rounded-2xl bg-[#003C32] font-bold  text-xl md:text-2xl text-white">
                 Buy Now
               </button>
-              <button className=" md:px-7 px-2  py-5 text-[#00423A]   border border-[#006156] font-bold text-2xl rounded-2xl">
+              <button className=" md:px-7 px-2  py-2 md:py-5  text-[#00423A]   border border-[#006156] font-bold text-xl md:text-2xl rounded-2xl">
                 Explore Demo
               </button>
             </div>

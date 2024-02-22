@@ -37,8 +37,9 @@ const Price = () => {
           <img src={bg} alt="" className="w-full h-full" />
         </div>
         <div className="w-full ">
-          <div className="absolute mt-[2rem]   top-0 flex flex-col items-center">
-            <h1 className="text-3xl font-[24px] py-7">
+          <div className="absolute mt-[2rem]    top-0 flex flex-col items-center">
+           <div className="px-4 ">
+           <h1 className="text-3xl font-[24px] py-7">
               <span className="text-[#00A08D] text-4xl">DriveMond</span> Script
               Pricing
             </h1>
@@ -47,10 +48,11 @@ const Price = () => {
                 
                 Purchase the DriveMond script in the best package that </p> <p> suits you
              
-             best. Start your ride sharing & parcel delivery </p><center>project today!</center> 
+             best. Start your ride sharing & parcel delivery </p><p>project today!</p> 
             </h1>
+           </div>
             <div className="flex justify-center w-screen mb-6 ">
-              <div className="w-auto   lg:w-[80%]">
+              <div className=" w-[70%]   lg:w-[80%]" >
                 <div className="flex mb-[4rem] font-semibold justify-center">
                   <p className="border-[2px] flex rounded-3xl text-2xl">
                     <button
