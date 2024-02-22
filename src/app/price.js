@@ -87,9 +87,9 @@ const Price = () => {
             <div className="flex justify-center mb-6 ">
               <div className=" w-[70%]   lg:w-[80%]">
                 <div className="flex mb-[4rem] font-semibold justify-center">
-                  <p className="border-[2px] flex rounded-3xl text:xl sm:text-2xl">
+                  <p className="border-[2px] flex rounded-3xl text:xl md:text-2xl">
                     <button
-                      className={` px:1 md:px-[2rem] rounded-2xl py-3 ${
+                      className={` px:[1rem] sm:px-[2rem] rounded-2xl py-3 ${
                         showAnnual ? "bg-[#FFFFFF] text-[#00A08D]" : ""
                       }`}
                       onClick={toggleAnnual}
@@ -97,7 +97,7 @@ const Price = () => {
                       Annual
                     </button>
                     <button
-                      className={`px:1 md:px-[2rem]  rounded-2xl py-3 ${
+                      className={`px:[1rem] sm:px-[2rem]  rounded-2xl py-3 ${
                         showLifetime ? "bg-[#FFFFFF] text-[#00A08D]" : ""
                       }`}
                       onClick={toggleLifetime}
@@ -151,7 +151,7 @@ const Price = () => {
                                   : " border-[#00A08D] border"
                               }`}
                             />
-                            <ul className="flex flex-col px-3 mb-4 sm:px-7 i ">
+                            <ul className="flex flex-col px-3 mb-4 md:px-7 i ">
                               {item.features.map((feature, index) => (
                                 <li className="   flex gap-4   items-center   mt-[1rem]">
                                   <span
@@ -184,8 +184,8 @@ const Price = () => {
                   </div>
                 )}
 
-                {showLifetime && (
-                  <div className="grid items-start grid-cols-1 sm:items-center md:grid-cols-3">
+{showLifetime && (
+                  <div className="grid justify-start grid-cols-1 sm:items-center md:grid-cols-3">
                     {prices &&
                       prices.map((item, id) => {
                         return (
@@ -194,7 +194,7 @@ const Price = () => {
                               id === 2
                                 ? " h-auto lg:h-[35rem] text-white "
                                 : " h-auto lg:h-[31rem] text-[black] "
-                            }  w-screen sm:w-full ${
+                            }  w-auto sm:w-full ${
                               id === 2 ? "bg-[#00A08D] " : "bg-[white]"
                             } ${
                               id === 2 ? "mt-0 md:mt-[-1rem] text-[white] " : ""
