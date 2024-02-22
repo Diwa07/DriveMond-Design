@@ -3,8 +3,7 @@ import Nav from "./nav";
 import bg from "../images/bg2.webp";
 import img from "../images/img.webp";
 import drive from "../images/drive.webp";
-import { useQuery } from "@tanstack/react-query";
-import { fetchPrice } from "../api/api";
+
 import { FaCheckCircle } from "react-icons/fa";
 
 const Price = () => {
@@ -21,11 +20,44 @@ const Price = () => {
     setShowAnnual(false);
   };
 
-  const { data: postData } = useQuery({
-    queryKey: ["prices"],
-    queryFn: fetchPrice,
-  });
-  console.log(postData);
+
+  const prices = [
+    {
+      "type": "Basic",
+      "discountPrice": "$159",
+      "saving": "40% Savings",
+      "features": [
+        "Lifetime Update",
+        "Landing Page",
+        "DriveMond Admin Panel",
+        "DriveMond User App"
+      ]
+    },
+    {
+      "type": "Combo",
+      "discountPrice": "$239",
+      "saving": "40% Savings",
+      "features": [
+        "Lifetime Update",
+        "Landing Page",
+        "DriveMond Admin Panel",
+        "DriveMond User App",
+        "DriveMond Driver App"
+      ]
+    },
+    {
+      "type": "Agency",
+      "discountPrice": "$399",
+      "saving": "80% Savings",
+      "features": [
+        "Lifetime Update",
+        "Landing Page",
+        "DriveMond Admin Panel",
+        "DriveMond User App",
+        "DriveMond Driver App"
+      ]
+    }
+  ];
 
   return (
     <>
@@ -76,8 +108,8 @@ const Price = () => {
 
                 {showAnnual && (
                   <div className="grid items-center grid-cols-1 lg:grid-cols-3" >
-                    {postData &&
-                      postData.map((item, id) => {
+                    {prices &&
+                      prices.map((item, id) => {
                         return (
                           <div
                             className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-5 ${
@@ -155,8 +187,8 @@ const Price = () => {
 
                 {showLifetime && (
                   <div className="grid items-center grid-cols-1 lg:grid-cols-3" id="Lifetime">
-                    {postData &&
-                      postData.map((item, id) => {
+                    {prices &&
+                      prices.map((item, id) => {
                         return (
                           <div
                             className={` text-black border-[1px] border-[#00423A] mb-7 rounded-xl flex flex-col justify-between py-5 px-5 ${
