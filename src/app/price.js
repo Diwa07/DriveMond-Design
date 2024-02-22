@@ -31,13 +31,13 @@ const Price = () => {
     <>
       <Nav />
 
-      <div className="relative  text-[#ffffffe3] ">
+      <div className="relative h-auto    text-[#ffffffe3] ">
         <div className="h-screen lg:h-[80%] ">
           
           <img src={bg} alt="" className="w-full h-full" />
         </div>
         <div className="w-full ">
-          <div className="absolute mt-[2rem]  w-screen top-0 flex flex-col items-center">
+          <div className="absolute mt-[2rem]   top-0 flex flex-col items-center">
             <h1 className="text-3xl font-[24px] py-7">
               <span className="text-[#00A08D] text-4xl">DriveMond</span> Script
               Pricing
@@ -50,7 +50,7 @@ const Price = () => {
              best. Start your ride sharing & parcel delivery </p><center>project today!</center> 
             </h1>
             <div className="flex justify-center w-screen mb-6 ">
-              <div className="w-[50%] lg:w-[80%]">
+              <div className="w-auto   lg:w-[80%]">
                 <div className="flex mb-[4rem] font-semibold justify-center">
                   <p className="border-[2px] flex rounded-3xl text-2xl">
                     <button
@@ -231,13 +231,13 @@ const Price = () => {
                 )}
               </div>
             </div>
-            <div className="h-[auto] lg:mt-0 mt-5  flex justify-center py-7 bg-[#D0F4EE] w-screen">
+            <div className="h-[auto] w-[80%] border  lg:mt-0 mt-5    flex justify-center py-7 bg-[#D0F4EE] ">
               <div className="w-[75%]  ">
                 <center className="text-2xl text-[#00423A]">
                   DriveMond Driver App- Addon
                 </center>
                 <div className="grid grid-cols-1 gap-5 py-1 mt-3 lg:grid-cols-2">
-                  <div className="bg-[#96E2D6] flex justify-between px-5 rounded-2xl py-[3rem] h-[11rem]">
+                  <div className="bg-[#96E2D6] flex justify-between flex-col px-5 rounded-2xl py-[2rem] md: h-[11rem]">
                     
                     <div className="h-[4rem] flex w-[4rem]">
                       <img src={drive} alt="" />
@@ -248,31 +248,33 @@ const Price = () => {
                         </p>
                       </p>
                     </div>
-                    <p>
-                      <button className="h-[3rem] lg-px-7 px-4 items-center  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
+                    <p className="flex justify-end mt-3 ">
+                      <button className="h-[3rem]  lg-px-7 px-4 md:items-center items-end  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
                         
                         Buy Now
                       </button>
                     </p>
                   </div>
-                  <div className="bg-[#96E2D6] flex justify-between px-5 py-[3rem] rounded-2xl h-[11rem]">
+                  <div className="bg-[#96E2D6] flex justify-between flex-col px-5 rounded-2xl py-[2rem] md: h-[11rem]">
                     
                     <div className="h-[4rem] flex w-[4rem]">
                       <img src={drive} alt="" />
                       <p className="text-2xl ml-3 text-[#00A08D]">
-                        Lifetime
+                      Lifetime
                         <p className="flex gap-5 text-3xl font-bold">
-                          <strike>$199</strike> $99
+                        <strike>$199</strike> $99
                         </p>
                       </p>
                     </div>
-                    <p>
-                      <button className="h-[3rem] lg-px-7 px-5 items-center  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
+                    <p className="flex justify-end mt-3 ">
+                      <button className="h-[3rem]  lg-px-7 px-4 md:items-center items-end  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
                         
                         Buy Now
                       </button>
                     </p>
                   </div>
+
+                 
                 </div>
               </div>
             </div>

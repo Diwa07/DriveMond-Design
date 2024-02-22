@@ -10,23 +10,26 @@ const SecondPage = () => {
     queryFn: fetchPosts,
   });
   return (
-    <div className="w-screen h-screen text-white bg-gray-100">
-      <div className="relative h-screen  lg:h-[50%] w-screen ">
+    <div className="h-screen text-white bg-gray-100 ">
+      <div className="relative h-screen  lg:h-[50%]  ">
         <img src={bg} alt="" className="w-full h-full " />
-        <div className="absolute  py-7 mt-[2rem] w-screen top-0 flex flex-col items-center">
+        <div className="flex justify-center " >
+        <div className="absolute  justify-center  py-7 mt-[2rem]   top-0 flex flex-col items-center">
           <h1 className="py-5 text-2xl">What Comes with DriveMond? </h1>
-
-          <h2 className="px-5 text-xl ">
+           <p className="flex   py-2 px-[20%] justify-center">
+           <h2 className="text-xl ">
             DriveMond ensures a total ride sharing experience for all its users,
             such as drivers,
-            <p className="flex justify-center">customers, and the admin.</p>
+          customers, and the admin.
           </h2>
+           </p>
+          
 
-          <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-[5rem]  gap-11">
+          <div className="grid  grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-[7%] 2xl:mt-[25%]  gap-11">
             {postData &&
               postData.map((item, id) => {
                 return (
-                  <div className="h-[17rem] py-5 flex flex-col border border-white lg:border lg:border-[#003F37]   items-center px-5 justify-between p-2 w-[13rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
+                  <div className="h-[17rem] py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-5 justify-between p-2 w-[13rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
                     <p className="polygon bg-[#006156d0]   h-[3rem] w-[3rem] items-center flex justify-center text-xl text-white">
                      
                       <HiOutlineComputerDesktop />
@@ -38,6 +41,7 @@ const SecondPage = () => {
                 );
               })}
           </div>
+        </div>
         </div>
       </div>
     </div>

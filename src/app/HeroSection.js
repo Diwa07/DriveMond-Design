@@ -6,7 +6,7 @@ import SecondPage from "./secondPage";
 const HeroSection = () => {
   return (
     <>
-      <div className="h-screen  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
+      <div className="h-auto  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
         <Nav />
         <div className="grid items-center grid-cols-1 gap-10 py-8 lg:grid-cols-2 px-9">
           <div className=" text-[#00A08D]  ">
@@ -30,10 +30,10 @@ const HeroSection = () => {
               that comes with PHP script.
             </h2>
             <div className="flex py-9 gap-7">
-              <button className="px-7 py-5 rounded-2xl bg-[#003C32] font-bold text-2xl text-white">
+              <button className="md:px-7 px-2 py-5 rounded-2xl bg-[#003C32] font-bold text-2xl text-white">
                 Buy Now
               </button>
-              <button className="px-7 py-5 text-[#00423A]   border border-[#006156] font-bold text-2xl rounded-2xl">
+              <button className=" md:px-7 px-2  py-5 text-[#00423A]   border border-[#006156] font-bold text-2xl rounded-2xl">
                 Explore Demo
               </button>
             </div>
@@ -42,8 +42,9 @@ const HeroSection = () => {
             <img className="object-cover w-full h-full" src={hero} alt="img" />
           </div>
         </div>
-        <SecondPage />
+        
       </div>
+      <SecondPage />
     </>
   );
 };
