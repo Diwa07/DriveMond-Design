@@ -29,7 +29,7 @@ const Nav = () => {
           <li className="hover:text-[#006156] cursor-pointer">Feedback</li>
           <li className="hover:text-[#006156] cursor-pointer">Get Help</li>
         </ol>
-        <div className="flex h-[3rem] w-auto gap-0   items-center  lg:gap-7">
+        <div className="flex h-[3rem] w-auto gap-0  justify-between  items-center  lg:gap-7">
           <div className="flex items-center px-2 text-2xl gap-5 text-[#423f3f] cursor-pointer ">
             <div className="relative text-2xl">
               <FaCartShopping />
@@ -39,7 +39,7 @@ const Nav = () => {
                 </p>
               </div>
             </div>
-            <IoMdContact className="mr-2 text-3xl " />
+            <IoMdContact className="text-3xl " />
           </div>
 
           <button className="h-[3rem] lg-px-7 px-2 items-center hidden lg:flex  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
@@ -53,7 +53,7 @@ const Nav = () => {
               className="text-3xl cursor-pointer"
             />
             {showNav && (
-              <div className="absolute right-0 z-50 w-[60%] h-fit  bg-white border border-gray-300 top-4">
+              <div className="absolute right-0 z-50  w-[60%] h-screen  bg-white border border-gray-300  top-2">
                 <div className="hover:text-[red] cursor-pointer mb-2  text-3xl flex justify-end px-7 py-1  ">
                 
                   <MdOutlineCancel

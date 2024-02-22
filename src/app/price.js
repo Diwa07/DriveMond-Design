@@ -89,7 +89,7 @@ const Price = () => {
                 <div className="flex mb-[4rem] font-semibold justify-center">
                   <p className="border-[2px] flex rounded-3xl text:xl md:text-2xl">
                     <button
-                      className={` px:[1rem] sm:px-[2rem] rounded-2xl py-3 ${
+                      className={` px-[2rem] rounded-2xl py-3 ${
                         showAnnual ? "bg-[#FFFFFF] text-[#00A08D]" : ""
                       }`}
                       onClick={toggleAnnual}
@@ -97,7 +97,7 @@ const Price = () => {
                       Annual
                     </button>
                     <button
-                      className={`px:[1rem] sm:px-[2rem]  rounded-2xl py-3 ${
+                      className={`px-[2rem]  rounded-2xl py-3 ${
                         showLifetime ? "bg-[#FFFFFF] text-[#00A08D]" : ""
                       }`}
                       onClick={toggleLifetime}
@@ -167,7 +167,7 @@ const Price = () => {
                                 </li>
                               ))}
                             </ul>
-                            <li className="flex justify-start px-5 sm:px-0 sm:justify-center">
+                            <li className="flex justify-start px-5 sm:justify-center">
                               <button
                                 className={`${
                                   id === 1 ? "bg-[white]  " : " bg-[#00A08D] "
@@ -273,7 +273,7 @@ const Price = () => {
                       <img src={drive} alt="" />
                       <p className="text-2xl ml-3 text-[#00A08D]">
                         Annual
-                        <p className="flex gap-5 text-3xl font-bold">
+                        <p className="flex gap-3 text-3xl font-bold">
                           <strike>$53</strike> $39
                         </p>
                       </p>
@@ -289,12 +289,12 @@ const Price = () => {
                       <img src={drive} alt="" />
                       <p className="text-2xl ml-3  text-[#00A08D]">
                         Lifetime
-                        <p className="flex gap-5 text-3xl font-bold">
+                        <p className="flex gap-3 text-3xl font-bold">
                           <strike>$199</strike> $99
                         </p>
                       </p>
                     </div>
-                    <p className="flex justify-center mt-4 md:justify-end ">
+                    <p className="flex justify-center mt-4 ">
                       <button className="h-[3rem]  lg-px-7 px-4 md:items-center items-end  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
                         Buy Now
                       </button>
