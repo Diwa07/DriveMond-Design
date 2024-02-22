@@ -20,43 +20,42 @@ const Price = () => {
     setShowAnnual(false);
   };
 
-
   const prices = [
     {
-      "type": "Basic",
-      "discountPrice": "$159",
-      "saving": "40% Savings",
-      "features": [
-        "Lifetime Update",
-        "Landing Page",
-        "DriveMond Admin Panel",
-        "DriveMond User App"
-      ]
-    },
-    {
-      "type": "Combo",
-      "discountPrice": "$239",
-      "saving": "40% Savings",
-      "features": [
+      type: "Basic",
+      discountPrice: "$159",
+      saving: "40% Savings",
+      features: [
         "Lifetime Update",
         "Landing Page",
         "DriveMond Admin Panel",
         "DriveMond User App",
-        "DriveMond Driver App"
-      ]
+      ],
     },
     {
-      "type": "Agency",
-      "discountPrice": "$399",
-      "saving": "80% Savings",
-      "features": [
+      type: "Combo",
+      discountPrice: "$239",
+      saving: "40% Savings",
+      features: [
         "Lifetime Update",
         "Landing Page",
         "DriveMond Admin Panel",
         "DriveMond User App",
-        "DriveMond Driver App"
-      ]
-    }
+        "DriveMond Driver App",
+      ],
+    },
+    {
+      type: "Agency",
+      discountPrice: "$399",
+      saving: "80% Savings",
+      features: [
+        "Lifetime Update",
+        "Landing Page",
+        "DriveMond Admin Panel",
+        "DriveMond User App",
+        "DriveMond Driver App",
+      ],
+    },
   ];
 
   return (
@@ -64,31 +63,33 @@ const Price = () => {
       <Nav />
 
       <div className="relative h-auto    text-[#ffffffe3] ">
-        <div className="h-screen lg:h-[80%] ">
-          
+        <div className="h-screen  lg:h-[80%] ">
           <img src={bg} alt="" className="w-full h-full" />
         </div>
         <div className="w-full ">
           <div className="absolute mt-[2rem]    top-0 flex flex-col items-center">
-           <div className="px-4 ">
-           <h1 className="text-3xl font-[24px] py-7">
-              <span className="text-[#00A08D] text-4xl">DriveMond</span> Script
-              Pricing
-            </h1>
-            <h1 className="py-4  text-[1rem] lg:text-xl mb-7">
-              <p className="mb-2">
-                
-                Purchase the DriveMond script in the best package that </p> <p> suits you
-             
-             best. Start your ride sharing & parcel delivery </p><p>project today!</p> 
-            </h1>
-           </div>
-            <div className="flex justify-center w-screen mb-6 ">
-              <div className=" w-[70%]   lg:w-[80%]" >
+            <div className="flex flex-col px-4 text-center ">
+              <h1 className="text-3xl font-[24px] py-7">
+                <span className="text-[#00A08D] text-4xl">DriveMond</span>
+                Script Pricing
+              </h1>
+              <h1 className="py-4  text-[1rem] lg:text-xl mb-7">
+                <p className="mb-2">
+                  Purchase the DriveMond script in the best package that
+                </p>
+                <p>
+                  
+                  suits you best. Start your ride sharing & parcel delivery
+                </p>
+                <p>project today!</p>
+              </h1>
+            </div>
+            <div className="flex justify-center mb-6 ">
+              <div className=" w-[70%]   lg:w-[80%]">
                 <div className="flex mb-[4rem] font-semibold justify-center">
-                  <p className="border-[2px] flex rounded-3xl text-2xl">
+                  <p className="border-[2px] flex rounded-3xl text:xl sm:text-2xl">
                     <button
-                      className={`px-[2rem] rounded-2xl py-3 ${
+                      className={` px:1 md:px-[2rem] rounded-2xl py-3 ${
                         showAnnual ? "bg-[#FFFFFF] text-[#00A08D]" : ""
                       }`}
                       onClick={toggleAnnual}
@@ -96,7 +97,7 @@ const Price = () => {
                       Annual
                     </button>
                     <button
-                      className={`px-[2rem] rounded-2xl py-3 ${
+                      className={`px:1 md:px-[2rem]  rounded-2xl py-3 ${
                         showLifetime ? "bg-[#FFFFFF] text-[#00A08D]" : ""
                       }`}
                       onClick={toggleLifetime}
@@ -107,18 +108,20 @@ const Price = () => {
                 </div>
 
                 {showAnnual && (
-                  <div className="grid items-center grid-cols-1 lg:grid-cols-3" >
+                  <div className="grid justify-start grid-cols-1 sm:items-center md:grid-cols-3">
                     {prices &&
                       prices.map((item, id) => {
                         return (
                           <div
-                            className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-5 ${
+                            className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-1 sm:px-5 ${
                               id === 1
                                 ? " h-auto lg:h-[35rem] text-white "
                                 : " h-auto lg:h-[31rem] text-[black] "
-                            } w-full ${
+                            }  w-auto sm:w-full ${
                               id === 1 ? "bg-[#00A08D] " : "bg-[white]"
-                            } ${id === 1 ? "mt-[-1rem] text-[white] " : ""}`}
+                            } ${
+                              id === 1 ? "mt-0 md:mt-[-1rem] text-[white] " : ""
+                            }`}
                           >
                             <ul
                               className={`${
@@ -148,10 +151,9 @@ const Price = () => {
                                   : " border-[#00A08D] border"
                               }`}
                             />
-                            <ul className="">
+                            <ul className="flex flex-col px-3 mb-4 sm:px-7 i ">
                               {item.features.map((feature, index) => (
-                                <li className=" px-[3rem] flex gap-4 items-center  mt-[1rem]">
-                                  
+                                <li className="   flex gap-4   items-center   mt-[1rem]">
                                   <span
                                     className={`${
                                       id === 1
@@ -159,15 +161,13 @@ const Price = () => {
                                         : " text-[#00A08D]"
                                     }`}
                                   >
-                                    
                                     <FaCheckCircle />
                                   </span>
-                                  {feature}
+                                  <span>{feature}</span>
                                 </li>
                               ))}
                             </ul>
-                            <li className="flex justify-center">
-                              
+                            <li className="flex justify-start px-5 sm:px-0 sm:justify-center">
                               <button
                                 className={`${
                                   id === 1 ? "bg-[white]  " : " bg-[#00A08D] "
@@ -175,7 +175,6 @@ const Price = () => {
                                   id === 1 ? "text-[#00A08D] " : "text-white "
                                 } `}
                               >
-                                
                                 Buy Now
                               </button>
                             </li>
@@ -186,18 +185,20 @@ const Price = () => {
                 )}
 
                 {showLifetime && (
-                  <div className="grid items-center grid-cols-1 lg:grid-cols-3" id="Lifetime">
+                  <div className="grid items-start grid-cols-1 sm:items-center md:grid-cols-3">
                     {prices &&
                       prices.map((item, id) => {
                         return (
                           <div
-                            className={` text-black border-[1px] border-[#00423A] mb-7 rounded-xl flex flex-col justify-between py-5 px-5 ${
+                            className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-1 sm:px-5 ${
                               id === 2
-                              ? " h-auto lg:h-[35rem] text-white "
-                              : " h-auto lg:h-[31rem] text-[black] "
-                            } w-full ${
+                                ? " h-auto lg:h-[35rem] text-white "
+                                : " h-auto lg:h-[31rem] text-[black] "
+                            }  w-screen sm:w-full ${
                               id === 2 ? "bg-[#00A08D] " : "bg-[white]"
-                            } ${id === 2 ? "mt-[-1rem] text-[white] " : ""}`}
+                            } ${
+                              id === 2 ? "mt-0 md:mt-[-1rem] text-[white] " : ""
+                            }`}
                           >
                             <ul
                               className={`${
@@ -227,10 +228,9 @@ const Price = () => {
                                   : " border-[#00A08D] border"
                               }`}
                             />
-                            <ul className="">
+                            <ul className="flex flex-col px-3 mb-4 sm:px-7 i ">
                               {item.features.map((feature, index) => (
-                                <li className=" px-[3rem] flex gap-4 items-center  mt-[1rem]">
-                                  
+                                <li className="   flex gap-4   items-center   mt-[1rem]">
                                   <span
                                     className={`${
                                       id === 2
@@ -238,15 +238,13 @@ const Price = () => {
                                         : " text-[#00A08D]"
                                     }`}
                                   >
-                                    
                                     <FaCheckCircle />
                                   </span>
-                                  {feature}
+                                  <span>{feature}</span>
                                 </li>
                               ))}
                             </ul>
-                            <li className="flex justify-center">
-                              
+                            <li className="flex justify-start px-5 sm:px-0 sm:justify-center">
                               <button
                                 className={`${
                                   id === 2 ? "bg-[white]  " : " bg-[#00A08D] "
@@ -254,7 +252,6 @@ const Price = () => {
                                   id === 2 ? "text-[#00A08D] " : "text-white "
                                 } `}
                               >
-                                
                                 Buy Now
                               </button>
                             </li>
@@ -265,14 +262,13 @@ const Price = () => {
                 )}
               </div>
             </div>
-            <div className="h-[auto] w-[80%] border  lg:mt-0 mt-5    flex justify-center py-7 bg-[#D0F4EE] ">
+            <div className="h-[auto] w-[100%] md:w-[80%] border  lg:mt-0 mt-5    flex justify-center py-7 bg-[#D0F4EE] ">
               <div className="w-[75%]  ">
                 <center className="text-2xl text-[#00423A]">
                   DriveMond Driver App- Addon
                 </center>
                 <div className="grid grid-cols-1 gap-5 py-1 mt-3 lg:grid-cols-2">
-                  <div className="bg-[#96E2D6] flex justify-between flex-col px-5 rounded-2xl py-[2rem] md: h-[11rem]">
-                    
+                  <div className="bg-[#96E2D6] flex justify-between flex-col md:flex-row  px-2 sm:px-5 rounded-2xl py-[2rem] md: h-[11rem]">
                     <div className="h-[4rem] flex w-[4rem]">
                       <img src={drive} alt="" />
                       <p className="text-2xl ml-3 text-[#00A08D]">
@@ -282,33 +278,28 @@ const Price = () => {
                         </p>
                       </p>
                     </div>
-                    <p className="flex justify-end mt-3 ">
+                    <p className="flex justify-center mt-4">
                       <button className="h-[3rem]  lg-px-7 px-4 md:items-center items-end  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
-                        
                         Buy Now
                       </button>
                     </p>
                   </div>
-                  <div className="bg-[#96E2D6] flex justify-between flex-col px-5 rounded-2xl py-[2rem] md: h-[11rem]">
-                    
+                  <div className="bg-[#96E2D6] flex justify-between flex-col md:flex-row px-2 sm:px-5 rounded-2xl py-[2rem] md: h-[11rem]">
                     <div className="h-[4rem] flex w-[4rem]">
                       <img src={drive} alt="" />
-                      <p className="text-2xl ml-3 text-[#00A08D]">
-                      Lifetime
+                      <p className="text-2xl ml-3  text-[#00A08D]">
+                        Lifetime
                         <p className="flex gap-5 text-3xl font-bold">
-                        <strike>$199</strike> $99
+                          <strike>$199</strike> $99
                         </p>
                       </p>
                     </div>
-                    <p className="flex justify-end mt-3 ">
+                    <p className="flex justify-center mt-4 md:justify-end ">
                       <button className="h-[3rem]  lg-px-7 px-4 md:items-center items-end  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
-                        
                         Buy Now
                       </button>
                     </p>
                   </div>
-
-                 
                 </div>
               </div>
             </div>

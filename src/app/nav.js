@@ -39,7 +39,7 @@ const Nav = () => {
                 </p>
               </div>
             </div>
-            <IoMdContact className="text-3xl" />
+            <IoMdContact className="mr-2 text-3xl " />
           </div>
 
           <button className="h-[3rem] lg-px-7 px-2 items-center hidden lg:flex  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
@@ -53,7 +53,7 @@ const Nav = () => {
               className="text-3xl cursor-pointer"
             />
             {showNav && (
-              <div className="absolute right-0 z-50 w-[40%] h-fit  bg-white border border-gray-300 top-4">
+              <div className="absolute right-0 z-50 w-[60%] h-fit  bg-white border border-gray-300 top-4">
                 <div className="hover:text-[red] cursor-pointer mb-2  text-3xl flex justify-end px-7 py-1  ">
                 
                   <MdOutlineCancel
@@ -64,25 +64,25 @@ const Nav = () => {
                 </div>
                 <ol className="px-4 py-4 ">
                   <Link to="/">
-                    <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[#808080be] py-2">
+                    <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                       Demo
                     </li>
                   </Link>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                     Features
                   </li>
                   <Link to="/price">
-                    <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
+                    <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                       Pricing
                     </li>
                   </Link>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                     Installation
                   </li>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                     Feedback
                   </li>
-                  <li className="hover:text-[#006156] cursor-pointer mb-7 border border-[#006156] rounded-2xl p-1 md:px-6 hover:bg-[gray] py-2">
+                  <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                     Get Help
                   </li>
                   <li className="flex justify-center">

@@ -15,21 +15,23 @@ const HeroSection = () => {
               <p className="mb-1 md:mb-4">
                 
                 Complete
-                <span className="text-[#00A08D]  font-bold text-3xl md:text-4xl">
+                <span className="text-[#00A08D] ml-3  font-bold text-2xl md:text-4xl">
                   
                   Ride Sharing and Parcel
                 </span>
               </p>
-              <span className="text-[#00A08D] font-bold   text-3xl md:text-4xl">
+             <p className="flex items-center justify-center gap-3 text-2xl" >
+             <span className="text-[#00A08D] font-bold    text-3xl md:text-4xl">
                 Delivery
               </span>
-              Solution
+            <span> Solution</span> 
+             </p>
             </h1>
-            <h2 className="mt-6 text-xl font-normal ">
+            <h2 className="flex text-xl font-normal mt-7 ">
               DriveMond is a complete ride sharing & parcel delivery solution
               that comes with PHP script.
             </h2>
-            <div className="flex gap-2 py-9 md:gap-7">
+            <div className="flex justify-center gap-7 py-9 md:gap-7">
               <button className="md:px-7 px-5 py-2 md:py-5 rounded-2xl bg-[#003C32] font-bold  text-xl md:text-2xl text-white">
                 Buy Now
               </button>
