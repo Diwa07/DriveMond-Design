@@ -27,16 +27,16 @@ const HeroSection = () => {
             <span className="text-3xl"> Solution</span> 
              </p>
             </h1>
-            <h2 className="flex justify-between px-4 text-xl font-normal md:justify-center lg:justify-start mt-7 ">
+            <h2 className="flex justify-between px-3 text-xl font-normal md:justify-center lg:justify-start mt-7 ">
               DriveMond is a complete ride sharing & parcel delivery solution
               that comes with PHP script.
             </h2>
             <div className="mt-9 ">
-           <div className="flex gap-3 md:gap-7" >
-           <button className=" px-7 py-4 md:py-5 rounded-2xl bg-[#003C32] font-bold   md:text-2xl text-white">
+           <div className="flex gap-7" >
+           <button className=" sm:px-7 px-4 py-4 md:py-5 rounded-2xl bg-[#003C32] font-bold   md:text-2xl text-white">
                 Buy Now
               </button>
-              <button className=" px-7 py-4 md:py-5  text-[#00423A]   border border-[#006156] font-bold  md:text-2xl rounded-2xl">
+              <button className=" sm:px-7 px-4 py-4 md:py-5  text-[#00423A]   border border-[#006156] font-bold  md:text-2xl rounded-2xl">
                 Explore Demo
               </button>
            </div>
