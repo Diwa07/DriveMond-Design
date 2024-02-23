@@ -56,7 +56,7 @@ const SecondPage = () => {
            </p>
           
 
-          <div className="grid  grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-[5%] mt-[7%] 2xl:mt-[25%]  gap-11">
+          <div className="grid  grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-6 mt-[7%] 2xl:mt-[25%]  gap-11">
             {posts &&
               posts.map((item, id) => {
                 return (
