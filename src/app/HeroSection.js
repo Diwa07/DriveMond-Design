@@ -6,7 +6,7 @@ import SecondPage from "./secondPage";
 const HeroSection = () => {
   return (
     <>
-      <div className="h-auto  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
+      <div className="h-auto w-screen  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
         <Nav />
         <div className="grid items-center gap-10 py-8 text-center lg:grid-cols-2 px-9">
           <div className="  text-[#00A08D]  ">
@@ -27,20 +27,22 @@ const HeroSection = () => {
             <span> Solution</span> 
              </p>
             </h1>
-            <h2 className="flex justify-center text-xl font-normal lg:justify-start mt-7 ">
+            <h2 className="flex justify-between text-xl font-normal md:justify-center lg:justify-start mt-7 ">
               DriveMond is a complete ride sharing & parcel delivery solution
               that comes with PHP script.
             </h2>
-            <div className="flex justify-center mt-5 gap-7 px-7 md:px-0 ">
-              <button className="md:px-7 px-5 py-4 md:py-5 rounded-2xl bg-[#003C32] font-bold  text-xl md:text-2xl text-white">
+            <div className="mt-5 ">
+           <div className="px-[5%] flex justify-center gap-3 sm:justify-center sm:gap-5  md:gap-7 sm:px-7 md:px-0   " >
+           <button className="md:px-7 px-5 py-4 md:py-5 rounded-2xl bg-[#003C32] font-bold  sm:text-2xl md:text-2xl text-white">
                 Buy Now
               </button>
               <button className=" md:px-7 px-2  py-4 md:py-5  text-[#00423A]   border border-[#006156] font-bold text-xl md:text-2xl rounded-2xl">
                 Explore Demo
               </button>
+           </div>
             </div>
           </div>
-          <div >
+          <div  >
             <img className="object-cover w-full h-full" src={hero} alt="img" />
           </div>
         </div>

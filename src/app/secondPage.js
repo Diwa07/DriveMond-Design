@@ -56,11 +56,11 @@ const SecondPage = () => {
            </p>
           
 
-          <div className="grid  grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-[7%] 2xl:mt-[25%]  gap-11">
+          <div className="grid  grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-[5%] mt-[7%] 2xl:mt-[25%]  gap-11">
             {posts &&
               posts.map((item, id) => {
                 return (
-                  <div className="h-[17rem] py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-5 justify-between p-2 w-[20rem] md:w-[13rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
+                  <div className="h-[17rem] py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-5 justify-between p-2  w-[90%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
                     <p className="polygon bg-[#006156d0]   h-[3rem] w-[3rem] items-center flex justify-center text-xl text-white">
                      
                     {item.icon}
