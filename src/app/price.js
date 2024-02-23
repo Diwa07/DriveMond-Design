@@ -73,7 +73,7 @@ const Price = () => {
                       Annualprices.map((item, id) => {
                         return (
                           <div
-                            className={` text-black border-[1px]  border-[#00423A]  rounded-xl mb-5 flex flex-col justify-between py-5 px-1 sm:px-5 ${
+                            className={` text-black border-[1px]  border-[#00423A]  rounded-xl mb-5 flex flex-col justify-between py-5 px-3 sm:px-5 ${
                               id === 1
                                 ? " h-auto lg:h-[35rem] text-white "
                                 : " h-auto lg:h-[31rem] text-[black] "
@@ -88,7 +88,7 @@ const Price = () => {
                                 id === 1 ? " text-[white]" : "text-[#00A08D]"
                               } flex `}
                             >
-                              <div className="grid grid-cols-2">
+                              <div className="grid grid-cols-2 ">
                                 <div>
                                   <li className="mb-2 text-3xl ">
                                     {item.type}
@@ -155,7 +155,7 @@ const Price = () => {
                       Lifetimeprices.map((item, id) => {
                         return (
                           <div
-                            className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-1 sm:px-5 ${
+                            className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-3 sm:px-5 ${
                               id === 2
                                 ? " h-auto lg:h-[35rem] text-white "
                                 : " h-auto lg:h-[31rem] text-[black] "

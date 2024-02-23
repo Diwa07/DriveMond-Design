@@ -29,7 +29,7 @@ const Nav = () => {
           <li className="hover:text-[#006156] cursor-pointer">Feedback</li>
           <li className="hover:text-[#006156] cursor-pointer">Get Help</li>
         </ol>
-        <div className="flex h-[3rem] w-auto gap-0  justify-between  items-center  lg:gap-7">
+        <div className="flex h-[3rem] w-auto gap-0  justify-between  px-3 items-center  lg:gap-7">
           <div className="flex items-center px-2 text-2xl gap-5 text-[#423f3f] cursor-pointer ">
             <div className="relative text-2xl">
               <FaCartShopping />
@@ -42,7 +42,7 @@ const Nav = () => {
             <IoMdContact className="text-3xl " />
           </div>
 
-          <button className="h-[3rem] lg-px-7 px-2 items-center hidden lg:flex  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
+          <button className="h-[3rem] lg-px-7 px-4 items-center hidden lg:flex  lg:font-bold  lg:text-xl  rounded-2xl text-white hover:bg-[#00423A] bg-[#006156]">
             Buy Now
           </button>
           <div className=" lg:hidden">
