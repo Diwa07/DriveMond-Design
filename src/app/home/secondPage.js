@@ -61,7 +61,7 @@ const SecondPage = () => {
             {posts &&
               posts.map((item, id) => {
                 return (
-                  <div className="h-[17rem]  py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-3 justify-between p-2  w-[100%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
+                  <div  style={{ boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)' }} className="h-[17rem]  py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-3 justify-between p-2  w-[100%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
                     <p className="polygon bg-[#006156d0]   h-[3rem] w-[3rem] items-center flex justify-center text-xl text-white">
                      
                     {item.icon}
