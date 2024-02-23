@@ -3,8 +3,9 @@ import Nav from "./nav";
 import bg from "../images/bg2.webp";
 import img from "../images/img.webp";
 import drive from "../images/drive.webp";
-
+import Lifetimeprices from "./Lifetimeprices";
 import { FaCheckCircle } from "react-icons/fa";
+import Annualprices from "./Annualprices";
 
 const Price = () => {
   const [showAnnual, setShowAnnual] = useState(true);
@@ -19,44 +20,6 @@ const Price = () => {
     setShowLifetime(true);
     setShowAnnual(false);
   };
-
-  const prices = [
-    {
-      type: "Basic",
-      discountPrice: "$159",
-      saving: "40% Savings",
-      features: [
-        "Lifetime Update",
-        "Landing Page",
-        "DriveMond Admin Panel",
-        "DriveMond User App",
-      ],
-    },
-    {
-      type: "Combo",
-      discountPrice: "$239",
-      saving: "40% Savings",
-      features: [
-        "Lifetime Update",
-        "Landing Page",
-        "DriveMond Admin Panel",
-        "DriveMond User App",
-        "DriveMond Driver App",
-      ],
-    },
-    {
-      type: "Agency",
-      discountPrice: "$399",
-      saving: "80% Savings",
-      features: [
-        "Lifetime Update",
-        "Landing Page",
-        "DriveMond Admin Panel",
-        "DriveMond User App",
-        "DriveMond Driver App",
-      ],
-    },
-  ];
 
   return (
     <>
@@ -77,15 +40,12 @@ const Price = () => {
                 <p className="mb-2">
                   Purchase the DriveMond script in the best package that
                 </p>
-                <p>
-                  
-                  suits you best. Start your ride sharing & parcel delivery
-                </p>
+                <p>suits you best. Start your ride sharing & parcel delivery</p>
                 <p>project today!</p>
               </h1>
             </div>
             <div className="flex justify-center mb-6 ">
-              <div className=" w-[70%]   lg:w-[80%]">
+              <div className=" w-[70%]   lg:w-[90%]">
                 <div className="flex mb-[4rem] font-semibold justify-center">
                   <p className="border-[2px] flex rounded-3xl text:xl md:text-2xl">
                     <button
@@ -109,11 +69,11 @@ const Price = () => {
 
                 {showAnnual && (
                   <div className="grid justify-start grid-cols-1 sm:items-center md:grid-cols-3">
-                    {prices &&
-                      prices.map((item, id) => {
+                    {Annualprices &&
+                      Annualprices.map((item, id) => {
                         return (
                           <div
-                            className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-1 sm:px-5 ${
+                            className={` text-black border-[1px]  border-[#00423A]  rounded-xl mb-5 flex flex-col justify-between py-5 px-1 sm:px-5 ${
                               id === 1
                                 ? " h-auto lg:h-[35rem] text-white "
                                 : " h-auto lg:h-[31rem] text-[black] "
@@ -128,20 +88,25 @@ const Price = () => {
                                 id === 1 ? " text-[white]" : "text-[#00A08D]"
                               } flex `}
                             >
-                              <div>
-                                <li className="mb-2 text-3xl ">{item.type}</li>
-                                <strike className="text-2xl">
-                                  {item.discountPrice}
-                                </strike>
-                                <li className="mb-2 text-4xl font-bold">
-                                  {item.price}
-                                </li>
-                                <li className="mb-2 text-2xl ">
-                                  {item.saving}
-                                </li>
-                              </div>
-                              <div>
-                                <img src={img} alt="" />
+                              <div className="grid grid-cols-2">
+                                <div>
+                                  <li className="mb-2 text-3xl ">
+                                    {item.type}
+                                  </li>
+                                  <strike className="text-2xl">
+                                    {item.discountedPrice}
+                                  </strike>
+                                  <li className="mb-2 text-4xl font-bold">
+                                    {item.price}
+                                  </li>
+                                  <li className="mb-2 text-2xl ">
+                                    {item.saving}
+                                  </li>
+                                </div>
+
+                                <div>
+                                  <img src={img} alt="" />
+                                </div>
                               </div>
                             </ul>
                             <hr
@@ -151,7 +116,7 @@ const Price = () => {
                                   : " border-[#00A08D] border"
                               }`}
                             />
-                            <ul className="flex flex-col px-3 mb-4 md:px-7 i ">
+                            <ul className="flex flex-col px-3 mb-4 sm:px-7 i ">
                               {item.features.map((feature, index) => (
                                 <li className="   flex gap-4   items-center   mt-[1rem]">
                                   <span
@@ -167,11 +132,11 @@ const Price = () => {
                                 </li>
                               ))}
                             </ul>
-                            <li className="flex justify-start px-5 sm:justify-center">
+                            <li className="flex justify-start px-5 sm:px-0 sm:justify-center">
                               <button
                                 className={`${
                                   id === 1 ? "bg-[white]  " : " bg-[#00A08D] "
-                                } h-[3rem] lg-px-7 px-4 items-center   font-bold   rounded-2xl hover:bg-[#00423A] ${
+                                } h-[3rem] lg-px-7 px-4 items-center   font-bold    rounded-2xl hover:bg-[#00423A] ${
                                   id === 1 ? "text-[#00A08D] " : "text-white "
                                 } `}
                               >
@@ -184,10 +149,10 @@ const Price = () => {
                   </div>
                 )}
 
-{showLifetime && (
+                {showLifetime && (
                   <div className="grid justify-start grid-cols-1 sm:items-center md:grid-cols-3">
-                    {prices &&
-                      prices.map((item, id) => {
+                    {Lifetimeprices &&
+                      Lifetimeprices.map((item, id) => {
                         return (
                           <div
                             className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-1 sm:px-5 ${
@@ -205,20 +170,25 @@ const Price = () => {
                                 id === 2 ? " text-[white]" : "text-[#00A08D]"
                               } flex `}
                             >
-                              <div>
-                                <li className="mb-2 text-3xl ">{item.type}</li>
-                                <strike className="text-2xl">
-                                  {item.discountPrice}
-                                </strike>
-                                <li className="mb-2 text-4xl font-bold">
-                                  {item.price}
-                                </li>
-                                <li className="mb-2 text-2xl ">
-                                  {item.saving}
-                                </li>
-                              </div>
-                              <div>
-                                <img src={img} alt="" />
+                              <div className="grid grid-cols-2">
+                                <div>
+                                  <li className="mb-2 text-3xl ">
+                                    {item.type}
+                                  </li>
+                                  <strike className="text-2xl">
+                                    {item.discountedPrice}
+                                  </strike>
+                                  <li className="mb-2 text-4xl font-bold">
+                                    {item.price}
+                                  </li>
+                                  <li className="mb-2 text-2xl ">
+                                    {item.saving}
+                                  </li>
+                                </div>
+
+                                <div>
+                                  <img src={img} alt="" />
+                                </div>
                               </div>
                             </ul>
                             <hr
@@ -262,7 +232,7 @@ const Price = () => {
                 )}
               </div>
             </div>
-            <div className="h-[auto] w-[100%] md:w-[80%] border  lg:mt-0 mt-5    flex justify-center py-7 bg-[#D0F4EE] ">
+            <div className="h-[auto] w-[100%]  border  lg:mt-0 mt-5    flex justify-center py-7 bg-[#D0F4EE] ">
               <div className="w-[75%]  ">
                 <center className="text-2xl text-[#00423A]">
                   DriveMond Driver App- Addon
