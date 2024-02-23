@@ -9,8 +9,8 @@ const HeroSection = () => {
       <div className="h-auto  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
         <Nav /> 
         <div className="overflow-hidden" >
-        <div className="grid items-center gap-10 py-8 text-center lg:grid-cols-2 px-9">
-          <div className="   pl-10 text-[#00A08D]  ">
+        <div className="grid items-center gap-10 px-4 py-8 text-center lg:grid-cols-2">
+          <div className="   text-[#00A08D]  ">
             <h1 className="text-3xl md:text-4xl lg:justify-start grid  text-[#00423A]   font-normal ">
 
               <p className="mb-1 md:mb-4">
@@ -21,7 +21,7 @@ const HeroSection = () => {
                   Ride Sharing and Parcel
                 </span>
               </p>
-             <p className="flex items-center justify-center gap-3 text-2xl lg:justify-start" >
+             <p className="flex items-center justify-center gap-3 text-2xl text-center lg:justify-start" >
              <span className="text-[#00A08D] font-bold    text-3xl md:text-4xl">
                 Delivery
               </span>
