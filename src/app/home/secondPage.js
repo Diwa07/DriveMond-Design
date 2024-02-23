@@ -1,9 +1,10 @@
 import React from "react";
-import bg from "../images/bg.webp";
+import bg from "../../images/bg.webp";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { MdOutlineMobileFriendly } from "react-icons/md";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { FaGlobe } from "react-icons/fa";
+import ThirdPage from "./thirdPage";
 
 const SecondPage = () => {
   const posts = [
@@ -38,13 +39,13 @@ const SecondPage = () => {
   ];
   
   return (
-    <div className="h-screen text-white bg-gray-100 ">
+    <div className="h-auto text-white md:h-screen">
       <div className="relative h-auto ">
-     <div className=" h-[100rem] lg:h-[50%]  " >
+     <div className="  h-[95rem] sm:h-[54rem] md:h-[57rem] lg:h-[50%]  " >
      <img src={bg} alt="" className="object-cover w-full h-full " />
      
         <div className="flex justify-center " >
-        <div className="absolute  justify-center  py-7 mt-[2rem]   top-0 flex flex-col items-center">
+        <section className="absolute  justify-center  py-7 mt-[2rem]   top-0 flex flex-col items-center">
         
            <p className="flex flex-col  text-center  py-2 px-[7%] md:px-[20%] justify-center">
            <h1 className="py-5 text-2xl">What Comes with DriveMond? </h1>
@@ -60,7 +61,7 @@ const SecondPage = () => {
             {posts &&
               posts.map((item, id) => {
                 return (
-                  <div className="h-[17rem] py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-5 justify-between p-2  w-[100%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
+                  <div className="h-[17rem]  py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-5 justify-between p-2  w-[100%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
                     <p className="polygon bg-[#006156d0]   h-[3rem] w-[3rem] items-center flex justify-center text-xl text-white">
                      
                     {item.icon}
@@ -72,11 +73,18 @@ const SecondPage = () => {
                 );
               })}
           </div>
-        </div>
+        
+          <div className="w-full " >
+          <ThirdPage/>
+         </div>
+        </section>
+        
         </div>
      
+      </div> 
+      
       </div>
-      </div>
+      
     </div>
   );
 };

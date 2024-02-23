@@ -1,25 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import './App.css'
+import "./App.css";
 
-
-import Price from './app/price'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-import HeroSection from './app/HeroSection'
+import Price from "./app/price/price";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
+import Home from "./app/home/Home";
 
 const App = () => {
   return (
     <Router>
-    <Routes>
-    <Route path="/" element={<HeroSection/>} />
-    <Route path="/price" element={<Price/>} />
-    
-    </Routes>
-  </Router> 
-  )
-}
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/price" element={<Price />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

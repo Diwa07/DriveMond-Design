@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Nav from "./nav";
-import bg from "../images/bg2.webp";
-import img from "../images/img.webp";
-import drive from "../images/drive.webp";
+import Nav from "../nav";
+import bg from "../../images/bg2.webp";
+import img from "../../images/img.webp";
+import drive from "../../images/drive.webp";
 import Lifetimeprices from "./Lifetimeprices";
 import { FaCheckCircle } from "react-icons/fa";
 import Annualprices from "./Annualprices";
+
 
 const Price = () => {
   const [showAnnual, setShowAnnual] = useState(true);
@@ -22,7 +23,7 @@ const Price = () => {
   };
 
   return (
-    <>
+    < >
       <Nav />
 
       <div className="relative h-auto    text-[#ffffffe3] ">
@@ -270,9 +271,12 @@ const Price = () => {
                       </button>
                     </p>
                   </div>
+              
                 </div>
+               
               </div>
             </div>
+          
           </div>
         </div>
       </div>

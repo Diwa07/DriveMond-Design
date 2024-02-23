@@ -1,13 +1,13 @@
 import React from "react";
-import hero from "../images/hero.webp";
-import Nav from "./nav";
-import SecondPage from "./secondPage";
+import hero from "../../images/hero.webp";
+import Nav from "../nav";
+
 
 const HeroSection = () => {
   return (
     <>
       <div className="h-auto  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
-        <Nav />
+        <Nav /> 
         <div className="overflow-hidden" >
         <div className="grid items-center gap-10 py-8 text-center lg:grid-cols-2 px-9">
           <div className="  text-[#00A08D]  ">
@@ -50,7 +50,6 @@ const HeroSection = () => {
         </div>
         
       </div>
-      <SecondPage />
     </>
   );
 };
