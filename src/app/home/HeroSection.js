@@ -10,25 +10,24 @@ const HeroSection = () => {
         <Nav /> 
         <div className="overflow-hidden" >
         <div className="grid items-center justify-between gap-10 px-4 py-8 text-center lg:grid-cols-2">
-          <div className="  justify-center items-center px-9 h-full flex  flex-col text-[#00A08D]  ">
+          <div className="  justify-center items-center  border border-[red]  h-full flex  flex-col text-[#00A08D]  ">
             <h1 className="text-3xl md:text-4xl   text-[#00423A]   font-normal ">
 
-              <p className="flex mb-1 md:mb-4">
+              <p className="mb-1 md:mb-4">
                 
                 Complete
-                <span className="text-[#00A08D] ml-3  font-bold text-2xl md:text-4xl">
-                  
+                <span className="text-[#00A08D] ml-2  font-bold text-2xl md:text-4xl">
                   Ride Sharing and Parcel
                 </span>
               </p>
-             <span className="flex items-center justify-center gap-3 text-2xl text-center " >
+             <p className="flex items-center justify-center gap-3 text-2xl text-center " >
              <span className="text-[#00A08D] font-bold    text-3xl md:text-4xl">
                 Delivery
               </span>
-            <span> Solution</span> 
-             </span>
+            <span className="text-3xl"> Solution</span> 
+             </p>
             </h1>
-            <h2 className="flex justify-between text-xl font-normal md:justify-center lg:justify-start mt-7 ">
+            <h2 className="flex justify-between px-4 text-xl font-normal md:justify-center lg:justify-start mt-7 ">
               DriveMond is a complete ride sharing & parcel delivery solution
               that comes with PHP script.
             </h2>
