@@ -41,7 +41,7 @@ const SecondPage = () => {
   return (
     <div className="h-auto text-white md:h-screen">
       <div className="relative h-auto ">
-     <div className="  h-[95rem] sm:h-[54rem] md:h-[57rem] lg:h-[50%]  " >
+     <div className="  h-[95rem]  sm:h-[56rem]  lg:h-[50%]  " >
      <img src={bg} alt="" className="object-cover w-full h-full " />
      
         <div className="flex justify-center " >
@@ -57,11 +57,11 @@ const SecondPage = () => {
            </p>
           
 
-          <div className="grid  grid-cols-1   sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:px-6 mt-[7%] px-9 2xl:mt-[25%]  gap-11">
+          <div className="grid  grid-cols-1  px-[20%]  sm:grid-cols-2  lg:grid-cols-4 sm:px-6 mt-[7%]  2xl:mt-[25%]  gap-11">
             {posts &&
               posts.map((item, id) => {
                 return (
-                  <div className="h-[17rem]  py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-5 justify-between p-2  w-[100%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
+                  <div className="h-[17rem]  py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-3 justify-between p-2  w-[100%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
                     <p className="polygon bg-[#006156d0]   h-[3rem] w-[3rem] items-center flex justify-center text-xl text-white">
                      
                     {item.icon}
@@ -74,9 +74,7 @@ const SecondPage = () => {
               })}
           </div>
         
-          <div className="w-full " >
-          <ThirdPage/>
-         </div>
+       
         </section>
         
         </div>
