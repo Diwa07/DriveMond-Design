@@ -33,10 +33,10 @@ const HeroSection = () => {
             </h2>
             <div className="mt-9 ">
            <div className="flex gap-7" >
-           <button className=" sm:px-7 px-4 py-4 md:py-5 rounded-2xl bg-[#003C32] font-bold   md:text-2xl text-white">
+           <button className=" sm:px-7 px-4 py-3 md:py-4 rounded-2xl bg-[#003C32] font-bold   md:text-2xl text-white">
                 Buy Now
               </button>
-              <button className=" sm:px-7 px-4 py-4 md:py-5  text-[#00423A]   border border-[#006156] font-bold  md:text-2xl rounded-2xl">
+              <button className=" sm:px-7 px-4 py-3 md:py-4  text-[#00423A]   border border-[#006156] font-bold  md:text-2xl rounded-2xl">
                 Explore Demo
               </button>
            </div>

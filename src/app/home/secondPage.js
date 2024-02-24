@@ -38,14 +38,13 @@ const SecondPage = () => {
     }
   ];
   
-  return (
-    <div className="h-auto text-white md:h-screen">
-      <div className="relative h-auto ">
-     <div className="  h-[95rem]  sm:h-[56rem]  lg:h-[50%]  " >
-     <img src={bg} alt="" className="object-cover w-full h-full " />
+  return (<>
+    <div className="text-white md:h-screen">
+      <div className="relative  lg:h-[50%]  "style={{ backgroundImage: `url(${bg})` }}>
+
      
         <div className="flex justify-center " >
-        <section className="absolute  justify-center  py-7 mt-[2rem]   top-0 flex flex-col items-center">
+        <section className="lg:absolute  justify-center  py-7 mt-[2rem]   top-0 flex flex-col items-center">
         
            <p className="flex flex-col  text-center  py-2 px-[7%] md:px-[20%] justify-center">
            <h1 className="py-5 text-2xl">What Comes with DriveMond? </h1>
@@ -57,7 +56,7 @@ const SecondPage = () => {
            </p>
           
 
-          <div className="grid  grid-cols-1  px-[20%]  sm:grid-cols-2  lg:grid-cols-4 sm:px-6 mt-[7%]  2xl:mt-[25%]  gap-11">
+          <div className="grid  grid-cols-1  px-[20%]  mt-[6%] sm:grid-cols-2  lg:grid-cols-4 sm:px-6  gap-11">
             {posts &&
               posts.map((item, id) => {
                 return (
@@ -79,11 +78,13 @@ const SecondPage = () => {
         
         </div>
      
-      </div> 
+ 
       
       </div>
-      
+    
     </div>
+ 
+    </>
   );
 };
 

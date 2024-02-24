@@ -7,10 +7,10 @@ import FourthPage from './fourthPage'
 const Home = () => {
   return (
     <>
-    <HeroSection/>
-    <SecondPage/>
-   <ThirdPage/>
-   <FourthPage/>
+         <HeroSection/>
+        <SecondPage/>
+        <ThirdPage/> 
+   {/* <FourthPage/> */}
  
     </>
   )
