@@ -6,3 +6,32 @@
 .polygon{
 	clip-path: polygon(50% 1%, 51% 0, 100% 50%, 49% 100%, 50% 100%, 0% 50%);
 }
+::-webkit-scrollbar {
+	width: 10px; /* Width of the scrollbar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; /* Color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #888; /* Color of the handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; /* Color of the handle on hover */
+  }
+  
+  /* Progress indicator */
+  #progress {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 5px; /* Height of the progress indicator */
+	background-color: #4caf50; /* Color of the progress indicator */
+	width: 0; /* Initial width (no progress) */
+	z-index: 9999;
+  }
