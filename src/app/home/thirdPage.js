@@ -8,7 +8,7 @@ import laravel from "../../images/laravel.png";
 import map from "../../images/map.png";
 const ThirdPage = () => {
   return (
-    <div className="flex flex-col md:mt-[-5%] items-center justify-center px-5 mt-4 text-2xl text-black md:text-2xl">
+    <div className="flex flex-col items-center justify-center px-5 mt-4 text-2xl text-black md:text-2xl">
       <h1 className="flex flex-col px-8 text-center md:px-5">
         <p>Developed Using Latest Tech for Seamless &nbsp;</p>
         <p>

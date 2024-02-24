@@ -39,12 +39,12 @@ const SecondPage = () => {
   ];
   
   return (<>
-    <div className="text-white md:h-screen">
-      <div className="relative  lg:h-[50%]  border border-black "style={{ backgroundImage: `url(${bg})` }}>
+    <div className="text-white h-[100vh] ">
+      <div className=" md:h-[50%]  border border-black "style={{ backgroundImage: `url(${bg})` }}>
 
      
         <div className="flex justify-center " >
-        <section className="lg:absolute  justify-center  py-7 mt-[2rem]   top-0 flex flex-col items-center">
+        <section className="  justify-center  py-7 mt-[2rem]   flex flex-col items-center">
         
            <p className="flex flex-col  text-center  py-2 px-[7%] md:px-[20%] justify-center">
            <h1 className="py-5 text-2xl">What Comes with DriveMond? </h1>
