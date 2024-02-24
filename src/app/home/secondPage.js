@@ -39,8 +39,8 @@ const SecondPage = () => {
   ];
   
   return (<>
-    <div className="text-white h-[100vh] ">
-      <div className=" md:h-[50%]  border border-black "style={{ backgroundImage: `url(${bg})` }}>
+    <div className="text-white  md:h-[100vh] ">
+      <div className=" md:h-[50%]   border border-black "style={{ backgroundImage: `url(${bg})` }}>
 
      
         <div className="flex justify-center " >
@@ -56,7 +56,7 @@ const SecondPage = () => {
            </p>
           
 
-          <div className="grid  grid-cols-1 px-[20%]  mt-[6%] sm:grid-cols-2  lg:grid-cols-4 sm:px-6  gap-11">
+          <div className="grid  grid-cols-1 px-[20%]   mt-[6%] sm:grid-cols-2  lg:grid-cols-4 sm:px-6  gap-11">
             {posts &&
               posts.map((item, id) => {
                 return (

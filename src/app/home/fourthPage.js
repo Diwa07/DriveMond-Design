@@ -1,16 +1,7 @@
 import React from "react";
 
 const FourthPage = () => {
-  const sangam = () =>{
-    // window.onscroll = function(){
 
-      var container = document.getElementById('mainContainer');
-    //   console.log(container.offsetHeight);
-    var scrollPos = container.getBoundingClientRect().top 
-          + window.pageYOffset;
-
-  }
-  sangam();
   return (
     <>
       <div className="bg-[pink] h-[5rem] " >

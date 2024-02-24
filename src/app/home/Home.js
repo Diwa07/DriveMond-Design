@@ -10,7 +10,7 @@ const Home = () => {
          <HeroSection/>
         <SecondPage/>
         <ThirdPage/> 
-   {/* <FourthPage/> */}
+   <FourthPage/>
  
     </>
   )
