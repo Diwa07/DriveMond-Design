@@ -1,27 +1,36 @@
 import React from "react";
+import bg from '../../images/bg.webp'
 
 const FourthPage = () => {
 
   return (
     <>
-      <div className="bg-[pink] h-[5rem] " >
-        <h1>Test</h1>
-      </div>
-      <div className=" h-screen bg-[#00800054]" id="mainContainer">
-        <div className="grid grid-cols-2">
-          <div className="bg-[red] h-screen sticky">
-            <h1>This is sticky portion</h1>
-            <h1>A quick brown fox jumps over the lazy dog</h1>
-            <h1>A quick brown fox jumps over the lazy 2</h1>
+   
+      <div className="h-screen " id="mainContainer">
+        <div className="flex">
+          <div className=" h-screen flex py-6 flex-col px-[3%] text-2xl w-[30rem] items-center ">
+        <h1>How Does DriveMond Work?<br/> <br/> <br/> </h1>  
+<p> As a ride sharing business owner, you can take control of everything. Let’s see how DriveMond work for you.</p>
+           
           </div>
-          <div className="h-screen overflow-scroll bg-slate-400">
-            <h1>This is scroll portion</h1>
+          <div className="h-screen  grid-rows-5 overflow-y-scroll w-[100%] bg-slate-400">
+         <div className="grid h-[70%] grid-cols-2 ">
+          <h1>
+          1. Set Up Business
+Purchase the DriveMond script, then download and install it on your server. After that, configure, and set up business rules, and trip-wise commission from the admin panel.
+          </h1>
+          <div className="h-full ">
+            <img src={bg} alt="" className="h-full"/>
+          </div>
+
+         </div>
+
             <div className="bg-[green] h-screen">baba</div>
             <div className="bg-[blue] h-screen">papaa</div>
           </div>
         </div>
       </div>
-      <div className="bg-[pink] h-screen"></div>
+   
     </>
   );
 };
