@@ -8,9 +8,9 @@ const HeroSection = () => {
     <>
       <div className="h-auto  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
         <Nav /> 
-        <div className="overflow-hidden" >
-        <div className="grid items-center justify-between gap-10 px-4 py-8 text-center lg:grid-cols-2">
-          <div className="  justify-center items-center    h-full flex  flex-col text-[#00A08D]  ">
+        <div className="overflow-hidden " >
+        <div className="grid items-center justify-center gap-10 px-4 py-8 text-center md:justify-between lg:grid-cols-2">
+          <div className="  justify-center items-center     h-full flex  flex-col text-[#00A08D]  ">
             <h1 className="text-3xl md:text-4xl   text-[#00423A]   font-normal ">
 
               <p className="mb-1 md:mb-4">
@@ -32,7 +32,7 @@ const HeroSection = () => {
               that comes with PHP script.
             </h2>
             <div className="mt-9 ">
-           <div className="flex border border-[red]  gap-7" >
+           <div className="flex gap-7 " >
            <button className=" sm:px-7 px-4 py-3 md:py-4 rounded-2xl bg-[#003C32] font-bold   md:text-2xl text-white">
                 Buy Now
               </button>
@@ -40,7 +40,7 @@ const HeroSection = () => {
                 Explore Demo
               </button>
            </div>
-            </div>
+            </div> 
           </div>
           <div  >
             <img className="object-cover w-full h-full" src={hero} alt="img" />

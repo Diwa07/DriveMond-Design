@@ -40,7 +40,7 @@ const SecondPage = () => {
   
   return (<>
     <div className="text-white md:h-screen">
-      <div className="relative  lg:h-[50%]  "style={{ backgroundImage: `url(${bg})` }}>
+      <div className="relative  lg:h-[50%]  border border-black "style={{ backgroundImage: `url(${bg})` }}>
 
      
         <div className="flex justify-center " >
@@ -56,14 +56,14 @@ const SecondPage = () => {
            </p>
           
 
-          <div className="grid  grid-cols-1  px-[20%]  mt-[6%] sm:grid-cols-2  lg:grid-cols-4 sm:px-6  gap-11">
+          <div className="grid  grid-cols-1 px-[20%]  mt-[6%] sm:grid-cols-2  lg:grid-cols-4 sm:px-6  gap-11">
             {posts &&
               posts.map((item, id) => {
                 return (
                   <div  style={{ boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)' }} className="h-[17rem]  py-5 flex flex-col border lg:border-white  border-[#003F37]   items-center px-3 justify-between p-2  w-[100%] sm:w-[17rem] md:w-[15rem]  hover:text-[white] hover:bg-[#00A08D] cursor-pointer rounded-2xl text-[#00423A]   bg-[#FFFFFF]">
                     <p className="polygon bg-[#006156d0]   h-[3rem] w-[3rem] items-center flex justify-center text-xl text-white">
                      
-                    {item.icon}
+                    {item.icon} 
                     </p>
                     <p className="text-xl font-bold ">{item.title}</p>
                     <p className=" text-[1rem] flex text-center  ">{item.message} </p>
@@ -72,16 +72,17 @@ const SecondPage = () => {
                 );
               })}
           </div>
-        
        
+          
         </section>
-        
+      
         </div>
      
  
-      
+   
       </div>
-    
+     
+     
     </div>
  
     </>
