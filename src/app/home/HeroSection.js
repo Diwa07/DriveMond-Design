@@ -10,7 +10,7 @@ const HeroSection = () => {
         <Nav /> 
         <div className="overflow-hidden" >
         <div className="grid items-center justify-between gap-10 px-4 py-8 text-center lg:grid-cols-2">
-          <div className="  justify-center items-center  border border-[red]  h-full flex  flex-col text-[#00A08D]  ">
+          <div className="  justify-center items-center    h-full flex  flex-col text-[#00A08D]  ">
             <h1 className="text-3xl md:text-4xl   text-[#00423A]   font-normal ">
 
               <p className="mb-1 md:mb-4">
