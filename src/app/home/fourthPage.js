@@ -49,7 +49,7 @@ const FourthPage = () => {
                   <div className={`order-2 h-full px-4 md:order-none ${isOdd ? 'md:order-none' : 'md:order-1'}`}>
                     <img src={section.image} alt="" className="h-full px-2 " />
                   </div>
-                  <div className={`flex flex-col  order-1 px-4 md:order-none ${isOdd ? ' md:order-2  md:pl-7 items-end ' : ''}`}>
+                  <div className={`flex flex-col  order-1 px-4 md:order-none ${isOdd ? ' md:order-2  md:pl-7 md:items-end ' : ''}`}>
                     <h1 className="flex  text-[#00423A] gap-1 text-2xl">{index + 1}. {section.title}</h1>
                     <h1 className="  py-[3rem] text-[18px]">{section.content}</h1>
                     <h2 className="w-fit " >
