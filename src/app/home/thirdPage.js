@@ -40,7 +40,7 @@ const ThirdPage = () => {
                 Laravel
               </li>
               <li className="flex flex-col items-center">
-                <img src={map} alt="" className="w-[6rem] h-[6rem] px-5 py-3 bg-white " />
+                <img src={map} alt="" className="w-[6rem] h-[6rem] px-5 py-4 bg-white " />
                 Map Api
               </li>
             </ul>
