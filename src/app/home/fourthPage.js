@@ -40,7 +40,7 @@ const FourthPage = () => {
 
 
          
-        <div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
+        <div className="grid  grid-cols-1 py-5        h-auto md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
         <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
 <h1>1. Set Up Business</h1> 
 
@@ -70,74 +70,7 @@ Purchase the DriveMond script, then download and install it on your server. Afte
 
 
 </div>
-<div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
-
-
-<div className="order-2 h-full px-4 md:order-none ">
-  <img src={a} alt="" className="h-full"/>
-</div>
-
-        <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
-<h1>1. Set Up Business</h1> 
-
-<h1>
-Purchase the DriveMond script, then download and install it on your server. After that, configure, and set up business rules, and trip-wise commission from the admin panel.
-</h1>
-<h2>
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Pages & media setup
-
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight />SMS & payment configuration
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Language & Translation
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-</h2>
-
-</div>
-
-
-
-</div>
-
-
-         
-<div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
-        <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
-<h1>1. Set Up Business</h1> 
-
-<h1>
-Purchase the DriveMond script, then download and install it on your server. After that, configure, and set up business rules, and trip-wise commission from the admin panel.
-</h1>
-<h2>
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Pages & media setup
-
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight />SMS & payment configuration
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Language & Translation
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-</h2>
-
-</div>
-<div className="order-2 h-full px-4 md:order-none ">
-  <img src={a} alt="" className="h-full"/>
-</div>
-
-
-</div>
-<div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
+<div className="grid  grid-cols-1 py-5      h-auto  md:h-[70%]  md:px-[1%] px-[10%]   md:grid-cols-2 ">
 
 
 <div className="order-2 h-full px-4 md:order-none ">
@@ -173,10 +106,9 @@ Purchase the DriveMond script, then download and install it on your server. Afte
 </div>
 
 
-
-
-         
-<div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
+   
+        
+<div className="grid  grid-cols-1 py-5        h-auto md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
         <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
 <h1>1. Set Up Business</h1> 
 
@@ -206,76 +138,7 @@ Purchase the DriveMond script, then download and install it on your server. Afte
 
 
 </div>
-<div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
-
-
-<div className="order-2 h-full px-4 md:order-none ">
-  <img src={a} alt="" className="h-full"/>
-</div>
-
-        <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
-<h1>1. Set Up Business</h1> 
-
-<h1>
-Purchase the DriveMond script, then download and install it on your server. After that, configure, and set up business rules, and trip-wise commission from the admin panel.
-</h1>
-<h2>
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Pages & media setup
-
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight />SMS & payment configuration
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Language & Translation
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-</h2>
-
-</div>
-
-
-
-</div>
-
-
-
-
-         
-<div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
-        <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
-<h1>1. Set Up Business</h1> 
-
-<h1>
-Purchase the DriveMond script, then download and install it on your server. After that, configure, and set up business rules, and trip-wise commission from the admin panel.
-</h1>
-<h2>
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Pages & media setup
-
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight />SMS & payment configuration
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-<p className="flex items-center gap-3 mb-3 " >
-<FaArrowRight /> Language & Translation
-</p>
-<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
-</h2>
-
-</div>
-<div className="order-2 h-full px-4 md:order-none ">
-  <img src={a} alt="" className="h-full"/>
-</div>
-
-
-</div>
-<div className="grid  grid-cols-1 py-5     h-[60%] md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
+<div className="grid  grid-cols-1 py-5      h-auto  md:h-[70%]  md:px-[1%] px-[10%]   md:grid-cols-2 ">
 
 
 <div className="order-2 h-full px-4 md:order-none ">
@@ -309,26 +172,71 @@ Purchase the DriveMond script, then download and install it on your server. Afte
 
 
 </div>
+        
+<div className="grid  grid-cols-1 py-5        h-auto md:h-[70%] mb-7  md:px-[1%] px-[10%]   md:grid-cols-2 ">
+        <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
+<h1>1. Set Up Business</h1> 
+
+<h1>
+Purchase the DriveMond script, then download and install it on your server. After that, configure, and set up business rules, and trip-wise commission from the admin panel.
+</h1>
+<h2>
+<p className="flex items-center gap-3 mb-3 " >
+<FaArrowRight /> Pages & media setup
+
+</p>
+<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
+<p className="flex items-center gap-3 mb-3 " >
+<FaArrowRight />SMS & payment configuration
+</p>
+<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
+<p className="flex items-center gap-3 mb-3 " >
+<FaArrowRight /> Language & Translation
+</p>
+<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
+</h2>
+
+</div>
+<div className="order-2 h-full px-4 md:order-none ">
+  <img src={a} alt="" className="h-full"/>
+</div>
+
+
+</div>
+<div className="grid  grid-cols-1 py-5      h-auto  md:h-[70%]  md:px-[1%] px-[10%]   md:grid-cols-2 ">
+
+
+<div className="order-2 h-full px-4 md:order-none ">
+  <img src={a} alt="" className="h-full"/>
+</div>
+
+        <div className="flex flex-col justify-between order-1 px-4 md:order-none " >
+<h1>1. Set Up Business</h1> 
+
+<h1>
+Purchase the DriveMond script, then download and install it on your server. After that, configure, and set up business rules, and trip-wise commission from the admin panel.
+</h1>
+<h2>
+<p className="flex items-center gap-3 mb-3 " >
+<FaArrowRight /> Pages & media setup
+
+</p>
+<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
+<p className="flex items-center gap-3 mb-3 " >
+<FaArrowRight />SMS & payment configuration
+</p>
+<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
+<p className="flex items-center gap-3 mb-3 " >
+<FaArrowRight /> Language & Translation
+</p>
+<hr className="bg-[red] text-[green] border border-[blue] w-[70%] " />
+</h2>
+
+</div>
 
 
 
-
-
-
-
-       
-
-
-
-
-
-
-
-       
-
-
-
-
+</div>
 
 
 
