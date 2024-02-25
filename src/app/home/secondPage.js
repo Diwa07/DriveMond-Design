@@ -47,7 +47,7 @@ const SecondPage = () => {
         <section className="  justify-center  py-7 mt-[2rem]   flex flex-col items-center">
         
            <p className="flex flex-col  text-center  py-2 px-[7%] md:px-[20%] justify-center">
-           <h1 className="py-5 text-2xl">What Comes with DriveMond? </h1>
+           <h1 className="py-5 text-2xl">What  Comes with  DriveMond? </h1>
            <h2 className="text-xl ">
             DriveMond ensures a total ride sharing experience for all its users,
             such as drivers,
