@@ -29,7 +29,7 @@ const FourthPage = () => {
 
 
   return (
-    <div className="h-auto p-4 md:h-screen mt-7">
+    <div className="h-auto md:h-screen mt-7">
       <div className="flex flex-col md:flex-row ">
         <div className="flex flex-col gap-7 py-6 md:px-[4%] px-[10%] text-2xl md:w-[27rem] items-center">
           <h1>How Does DriveMond Work? </h1>
@@ -43,7 +43,7 @@ const FourthPage = () => {
             {sections.map((section, index) => {
               const isOdd = index % 2 !== 0; 
               return (
-                <div className="grid grid-cols-1 py-[1rem] gap-4 h-auto md:h-[70%] mb-7 md:px-[1%] px-[10%] sm:grid-cols-2" key={section.title}>
+                <div className="grid grid-cols-1 py-[1rem] gap-4 h-auto md:h-[70%] mb-7 md:px-[1%] px-[10%] md:grid-cols-2" key={section.title}>
                  
                   <div className={`order-2 h-full px-4 md:order-none ${isOdd ? 'md:order-none' : 'md:order-1'}`}>
                     <img src={section.image} alt="" className="h-full" />
