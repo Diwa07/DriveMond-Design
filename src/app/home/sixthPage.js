@@ -133,11 +133,11 @@ const SixthPage = () => {
         <div className='grid grid-cols-2 gap-3 p-3 md:grid-cols-3'>
           {featuresData.map((item, id) => (
             <div className='flex' >
-              <div className='grid grid-cols-2  mb-2 font-bold items-center px-4 rounded-2xl  text-[#1A554E] py-1 bg-[#EDF9F6] border  md:h-[6rem]'>
+              <div className='grid grid-cols-2 gap-3 md:gap-0  mb-2 font-bold items-center px-4 rounded-2xl  text-[#1A554E] py-1 bg-[#EDF9F6] border  md:h-[6rem]'>
                 <div className=' h-[3rem] md:h-[5rem] '>
                   <img src={item.image} alt='' className=' w-[3rem] md:w-[5rem] h-full' />
                 </div>
-                <p className=' md:text-[1.2rem]'>{item.title}</p>
+                <p className=' text-[0.8rem] md:text-[1.2rem]'>{item.title}</p>
               </div>
             </div>
           ))}
