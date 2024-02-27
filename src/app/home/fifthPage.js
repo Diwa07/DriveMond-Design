@@ -9,15 +9,18 @@ const FifthPage = () => {
 <div className='mt-[4rem] px-5  text-white text-center  text-2xl' >
    <h1 className='font-bold text-[2rem] ' >
    Let’s Discover DriveMond’s Business Potential
-   </h1>
-   <h2 className='mt-6 text-xl text-center ' >
+   <h2 className='mt-8 text-xl font-normal text-center ' >
    With DriveMond’s two dynamic modules, you can do various businesses and unlock the utmost potential.
    </h2>
+
+   </h1>
+ 
 </div>
-<div className='grid mt-9 px-[10%]  md:px-[4rem] gap-11  items-center    md:h-[20rem] grid-cols-1 md:grid-cols-2' >
+<div className='grid mt-[3rem] px-[10%]  md:px-[4rem] gap-11  items-center    md:h-[20rem] grid-cols-1 md:grid-cols-2' >
   <div  className='px-9 rounded-2xl flex flex-col justify-between items-center border lg:w-[27rem]  h-[20rem] py-7 md:w-[22rem] bg-[#E9FFFC] ' >
   <FaCar  className='text-[7rem] text-[#00A08D] ' />
-  <h1 className='text-2xl font-bold py-4 text-[#00A08D]' >Ride Sharing</h1>
+  <h1 className='text-2xl text-[#00423A] font-bold'>
+    Ride Sharing</h1>
 <p className='text-[#00A08D] text-center ' >
 Create zone-wise vehicles and connect drivers & start zone-wise ride sharing business with DriveMond. Customers can request a custom fare while drivers can bid for that request.</p>   
   </div>
