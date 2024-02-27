@@ -12,12 +12,18 @@ import bkash from'../../images/bkash.png'
 import paytabs from'../../images/paytabs.png'
 import paymob from'../../images/paymob-accept.png'
 import paypal from'../../images/paypal.png'
+import twilio from'../../images/twilio.png'
+import factor from'../../images/2factor.png'
+import nexmo from'../../images/nexmo.png'
+import msg91 from'../../images/msg91.png'
+import releans from'../../images/releans.png'
+
 
 
 
 const SeventhPage = () => {
   return (
-    <div className=" h-auto md:h-screen mt-7 py-7 bg-[#D5F1F3]  gap-7 items-center justify-items-center">
+    <div className=" h-auto  mt-7 py-7 bg-[#D5F1F3]  gap-7 items-center justify-items-center">
       <div className="flex flex-col items-center py-8 gap-9">
         <p className="text-[28px] text-[#00423A] " >Unlock Efficiency with Best</p>
         <p className="text-[28px] text-[#00A08D] font-bold">Payment Methods & SMS Gateways</p>
@@ -56,11 +62,11 @@ const SeventhPage = () => {
     
 <p className="py-7 text-2xl text-[#00423A]  "> SMS Gateways </p> 
      <div className="flex flex-wrap justify-center gap-4 " >
-     <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white"><img src={senangpay} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white"><img src={paytm} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white"><img src={paystack} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white"><img src={liqpay} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white"><img src={flutterwave} alt=""/></div> 
+     <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={twilio} alt=""/></div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={factor} alt=""/></div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={nexmo} alt=""/></div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={msg91} alt=""/></div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={releans} alt=""/></div> 
      
      </div>
 </div>
