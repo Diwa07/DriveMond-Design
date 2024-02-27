@@ -3,6 +3,7 @@ import HeroSection from './HeroSection'
 import SecondPage from './secondPage'
 import ThirdPage from './thirdPage'
 import FourthPage from './fourthPage'
+import FifthPage from './fifthPage'
 
 const Home = () => {
   return (
@@ -11,7 +12,8 @@ const Home = () => {
         <SecondPage/>
         <ThirdPage/> 
    <FourthPage/>
- 
+   <FifthPage/>
+  
     </>
   )
 }

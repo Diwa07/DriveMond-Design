@@ -1,8 +1,8 @@
 const Lifetimeprices = [
   {
     type: "Basic",
-    price: 266,
-    discountedPrice: 159,
+    price: '$266',
+    discountedPrice: '$159',
     icon: "Basic Icon",
     saving: "40% Savings ",
 
@@ -16,8 +16,8 @@ const Lifetimeprices = [
   },
   {
     type: "Combo",
-    price: 399,
-    discountedPrice: 239,
+    price: '$399',
+    discountedPrice: '$239',
     icon: "Combo Icon",
     saving: "40% Savings ",
 
@@ -34,8 +34,8 @@ const Lifetimeprices = [
   },
   {
     type: "Agency",
-    price: 1995,
-    discountedPrice: 399,
+    price: '$1995',
+    discountedPrice: '$399',
     icon: "Agency Icon",
     saving: "80% Savings ",
 

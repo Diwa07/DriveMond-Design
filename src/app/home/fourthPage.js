@@ -35,7 +35,7 @@ const FourthPage = () => {
         <div className="flex flex-col gap-7 py-6 md:px-[4%] justify-center px-[10%] text-[36px] md:w-[27rem] items-center">
           <h1 className="text-center " >How Does <span className="text-[#00A08D] font-bold"> DriveMond </span> Work?</h1>
           <p className="text-[18px]">As a ride-sharing business owner, you can take control of everything. Let’s see how DriveMond works for you.</p>
-          <button className=" px-7  text-xl flex gap-4 items-center py-4 rounded-2xl bg-[#003C32] font-bold md:text-2xl text-white">
+          <button className="px-7 flex gap-4 items-center py-4 rounded-2xl bg-[#003C32] font-bold md:text-2xl text-white">
             Buy Now <FaArrowRight />
           </button>
         </div>

@@ -8,9 +8,9 @@ const HeroSection = () => {
     <>
       <div className="h-auto  shadow-[inset_0px_0px_400px_16px_rgba(0,160,141,0.0999)]  ">
         <Nav /> 
-        <div className="overflow-hidden " >
+      
         <div className="grid items-center justify-center gap-10 px-4 py-8 text-center md:justify-between lg:grid-cols-2">
-          <div className="  justify-center items-center     h-full flex  flex-col text-[#00A08D]  ">
+          <div className="  justify-center items-center bg-gradient-to-b from-white to-[#E9FFF9]   h-full flex  flex-col text-[#00A08D]  ">
             <h1 className="text-3xl md:text-4xl   text-[#00423A]   font-normal ">
 
               <p className="mb-1 md:mb-4">
@@ -48,7 +48,7 @@ const HeroSection = () => {
         </div>
         </div>
         
-      </div>
+    
     </>
   );
 };
