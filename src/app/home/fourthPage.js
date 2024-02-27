@@ -32,7 +32,7 @@ const FourthPage = () => {
   return (
     <div className="h-auto md:h-screen mt-7">
       <div className="flex flex-col md:flex-row ">
-        <div className="flex flex-col gap-7 py-6 md:px-[4%] justify-center px-[10%] text-[36px] md:w-[27rem] items-center">
+        <div className="flex flex-col gap-7 py-6 md:px-[4%]  px-[10%] text-[36px] md:w-[27rem] items-center">
           <h1 className="text-center " >How Does <span className="text-[#00A08D] font-bold"> DriveMond </span> Work?</h1>
           <p className="text-[18px]">As a ride-sharing business owner, you can take control of everything. Let’s see how DriveMond works for you.</p>
           <button className="px-7 text-xl flex gap-4 items-center py-4 rounded-2xl bg-[#003C32] font-bold md:text-2xl text-white">
@@ -55,7 +55,7 @@ const FourthPage = () => {
                     <h2 className="w-fit " >
                       {section.subSections.map(subSection => (
                         <div key={subSection}>
-                          <p className="flex items-center text-[#00A08D] gap-3 mb-3 text-xl"><TbSteeringWheel  className="text-2xl" /> {subSection}
+                          <p className="flex items-center text-[#00A08D] gap-3 py-1 mb-3 text-xl"><TbSteeringWheel  className="text-2xl" /> {subSection}
                           
                           </p>
                           <hr className="border border-[#09A492] w-[100%]" />
@@ -67,7 +67,7 @@ const FourthPage = () => {
                 </div>
               );
             })}
-            <div id="progress" style={{ height: `${scrollProgress}%`, width: "7px", backgroundColor: "#7ACAC0", position: "absolute", right: 0, top: 14 }}></div>
+            <div id="progress" style={{ height: `${scrollProgress}%`, width: "7px", backgroundColor: "#7ACAC0", position: "absolute", right: 0, top: 14,paddingBottom: "10px" }}></div>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const ThirdPage = () => {
       <div className="h-auto md:p-4  flex  justify-center mt-[2rem] w-full ">
         <div className="px-[7%]  ">
           <div className="flex  md:flex-row flex-col gap-[2rem] justify-center items-center   ">
-            <ul className="grid md:grid-cols-5  grid-cols-3   gap-4 text-[1.2rem]   py-10 bg-[#EAFBF9]  px-4 rounded-2xl  text-[#003F37] font-bold text-center ">
+            <ul  className="grid md:grid-cols-5  grid-cols-3   gap-9 text-[1.2rem]   py-10 bg-[#EAFBF9]  px-4 rounded-2xl  text-[#003F37] font-bold text-center ">
               <li className="flex flex-col items-center ">
                 <img src={php} alt="" className="w-[6rem]  h-[6rem] px-5 py-4 bg-white " />
                 PHP

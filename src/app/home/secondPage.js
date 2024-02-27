@@ -40,7 +40,7 @@ const SecondPage = () => {
   
   return (<>
     <div className="text-white  md:h-[100vh] ">
-      <div className=" md:h-[50%]   border border-black "style={{ backgroundImage: `url(${bg})` }}>
+      <div className=" md:h-[50%]   border border-black "style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center'  }}>
 
      
         <div className="flex justify-center " >
