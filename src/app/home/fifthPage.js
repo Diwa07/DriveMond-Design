@@ -14,14 +14,14 @@ const FifthPage = () => {
    With DriveMond’s two dynamic modules, you can do various businesses and unlock the utmost potential.
    </h2>
 </div>
-<div className='grid mt-9 px-5  md:px-[4rem] gap-11 items-center    md:h-[20rem] grid-cols-1 md:grid-cols-2' >
-  <div  className='px-9 rounded-2xl flex flex-col justify-between items-center  h-[20rem] py-7 w-[25rem] bg-[#E9FFFC] ' >
+<div className='grid mt-9 px-[10%]  md:px-[4rem] gap-11 items-center    md:h-[20rem] grid-cols-1 md:grid-cols-2' >
+  <div  className='px-9 rounded-2xl flex flex-col justify-between items-center  h-[20rem] py-7 md:w-[25rem] bg-[#E9FFFC] ' >
   <FaCar  className='text-[7rem] text-[#00A08D] ' />
-  <h1 className='text-2xl font-bold text-[#00423A]' >Ride Sharing</h1>
+  <h1 className='text-2xl font-bold py-4 text-[#00423A]' >Ride Sharing</h1>
 <p className='text-[#00A08D] ' >
 Create zone-wise vehicles and connect drivers & start zone-wise ride sharing business with DriveMond. Customers can request a custom fare while drivers can bid for that request.</p>   
   </div>
-  <div  className='px-9 rounded-2xl flex flex-col items-center justify-between py-5  h-[20rem] w-[25rem] bg-[#E9FFFC] ' >
+  <div  className='px-9 rounded-2xl flex flex-col items-center justify-between py-5  h-[20rem] md:w-[25rem] bg-[#E9FFFC] ' >
   <TbTruckDelivery className='text-[8rem] text-[#00A08D] ' />
   <h1 className='text-2xl text-[#00423A] font-bold'>
     Parcel Delivery
