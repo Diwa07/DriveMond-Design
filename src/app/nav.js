@@ -10,7 +10,7 @@ const Nav = () => {
   const [showNav, setShowNav] = useState(false);
   return (
     <>
-      <nav className="flex py-3   justify-between  px-7 xl:h-20 items-center bg-[#FFFFFF] ">
+      <nav className="flex py-3   justify-between   px-3 md:px-7 xl:h-20 items-center bg-[#FFFFFF] ">
         <div className="flex-shrink-0">
           <Link to="/">
           

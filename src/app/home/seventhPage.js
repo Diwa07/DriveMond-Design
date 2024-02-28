@@ -23,7 +23,7 @@ import releans from'../../images/releans.png'
 
 const SeventhPage = () => {
   return (
-    <div className=" h-auto  mt-7 py-7 bg-[#D5F1F3]  gap-7 items-center justify-items-center">
+    <div className=" h-auto text-center  mt-7 py-7 bg-[#D5F1F3]  gap-7 items-center justify-items-center">
       <div className="flex flex-col items-center py-8 gap-9">
         <p className="text-[28px] text-[#00423A] " >Unlock Efficiency with Best</p>
         <p className="text-[28px] text-[#00A08D] font-bold">Payment Methods & SMS Gateways</p>
