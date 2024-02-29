@@ -34,7 +34,7 @@ const TenthPage = () => {
   };
 
   return (
-    <div className="flex flex-col px-[10%] items-center h-screen ">
+    <div className="flex flex-col px-[10%] items-center  ">
           <h1 className="text-[28px] py-9 ">
         <span className="text-[#00A08D] text-[38px] font-[bold] " >Frequently Asked Questions</span> About DriveMond
       </h1>

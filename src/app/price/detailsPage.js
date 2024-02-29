@@ -19,7 +19,7 @@ const DetailsPage = () => {
 <h1 className='py-5 text-2xl font-bold text-[#00A08D] ' >Our Transparent Refund Policy</h1>
 <p className=' text-[#00423A]' >Your peace of mind matters to us. We are committed to putting our customers first. So, we proudly introduce a refund experience designed with your satisfaction in mind. Our transparent refund policy ensures a 100% money back guarantee within 14 days. So you can be confident with your DriveMond script purchase decision.</p></p>
 <div>
-    <h1 className='flex gap-4 text-2xl py-7 ' >Payment Options : <FaCcVisa /> <FaCcDiscover /> <SiAmericanexpress />
+    <h1 className='flex gap-4 text-2xl py-7 ' >Payment Options : <div className='flex text-4xl gap-7' > <FaCcVisa /> <FaCcDiscover /> <SiAmericanexpress /></div>
  </h1>
 </div>
 
