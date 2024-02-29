@@ -153,7 +153,7 @@ const SixthPage = () => {
                 <div className=' h-[3rem] md:h-[5rem] '>
                   <img src={item.image} alt='' className=' w-[3rem] md:w-[5rem] h-full' />
                 </div>
-                <p className=' text-[0.6rem] md:text-[1.2rem]'>{item.title}</p>
+                <p className='  text-[0.9rem] md:text-[1.2rem]'>{item.title}</p>
               </div>
             </div>
           ))}

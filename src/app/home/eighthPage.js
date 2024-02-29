@@ -9,7 +9,7 @@ const EighthPage = () => {
     <div className=" h-auto  lg:h-screen px-[10%] ">
       <div className="flex flex-col items-center text-center py-7 ">
         <h1 className="text-[28px] text-[#00423A] ">
-          <span className="text-[#00A08D] font-bold "> Why Choose</span>{" "}
+          <span className="text-[#00A08D] font-bold "> Why Choose</span>
           DriveMond?
         </h1>
         <p className="text-[18px] text-[#006156] py-7 ">
