@@ -138,14 +138,14 @@ const featuresData = [
 
 const SixthPage = () => {
   return (
-    <div className='h-auto md:h-screen px-[5%] md:px-[10%] text-[#1A554E]  flex flex-col'>
+    <div className='h-auto lg:h-screen px-[5%] md:px-[10%] text-[#1A554E]  flex flex-col'>
       <div className='text-center py-[1rem]'>
         <h1 className='text-3xl'>Key <span className='font-bold text-[#00A08D]  ' >Features</span>  of DriveMond</h1>
         <h2 className='text-xl py-7'>
           Let’s explore the key features that make DriveMond a trendy ride sharing business and why it’s a must-have for your business.
         </h2>
       </div>
-      <div className=' md:overflow-scroll  no-scrollbar md:h-[27rem] bg-red'>
+      <div className=' lg:overflow-scroll  no-scrollbar lg:h-[27rem] bg-red'>
         <div className='grid grid-cols-2 gap-3 p-3 md:grid-cols-3'>
           {featuresData.map((item, id) => (
             <div className='flex' >

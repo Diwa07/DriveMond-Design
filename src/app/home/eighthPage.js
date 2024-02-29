@@ -17,7 +17,7 @@ const EighthPage = () => {
           convenience along their journey with the solution.
         </p>
       </div>
-      <div className="grid grid-cols-1 text-[#006156] md:grid-cols-2">
+      <div className="grid grid-cols-1 text-[#006156] lg:grid-cols-2">
         <div className="grid grid-rows-3 px-4 ">
           <div className="flex flex-col items-center md:gap-2 md:flex-row ">
             <div className=" h-[6rem] items-center md:w-[7rem] flex ">

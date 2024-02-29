@@ -40,7 +40,7 @@ const FourthPage = () => {
           </button>
         </div>
         <div className="relative flex-1">
-          <div className={` h-auto lg:h-screen ${hasOverflow ? 'md:overflow-y-scroll' : ''}  no-scrollbar`} id="scroll-container">
+          <div className={` h-auto md:h-screen ${hasOverflow ? 'md:overflow-y-scroll' : ''}  no-scrollbar`} id="scroll-container">
             {sections.map((section, index) => {
               const isOdd = index % 2 !== 0; 
               return (
