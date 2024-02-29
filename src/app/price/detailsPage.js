@@ -7,9 +7,9 @@ import EleventhPage from '../home/eleventhPage';
 
 const DetailsPage = () => {
   return ( <>
-    <div className=' px-[5%] md:px-[10%] flex flex-col items-center justify-center h-auto py-[7%]'>
+    <div className='  w-[100%] px-[7%] lg:px-[10%] flex flex-col items-center justify-center h-auto py-[7%]'>
         <div className=' bg-[#F0FBFA] p-[4%]  items-center gap-8 md:flex-row flex-col h-auto md:h-[20rem] flex '>
-            <div className=' md:w-[50rem] flex  justify-center  '  >
+            <div className=''  >
                 <img src={refud} alt=''  className='' />
             </div>
             <div className='flex flex-col px-[10%]' >

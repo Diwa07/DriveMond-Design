@@ -45,7 +45,7 @@ const Pricing = () => {
               </h1>
             </div>
             <div className="flex justify-center mb-6 ">
-              <div className=" w-[70%]   lg:w-[90%]">
+              <div className=" w-[85%]   lg:w-[90%]">
                 <div className="flex mb-[4rem] font-semibold justify-center">
                   <p className="border-[2px] flex rounded-3xl text:xl md:text-2xl">
                     <button
