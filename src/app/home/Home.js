@@ -8,6 +8,7 @@ import SixthPage from './sixthPage'
 import SeventhPage from './seventhPage'
 import EighthPage from './eighthPage'
 import NinthPage from './ninthPage'
+import TenthPage from './tenthPage'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
    <SeventhPage/>
    <EighthPage/>
    <NinthPage/>
+   <TenthPage/>
    
   
   

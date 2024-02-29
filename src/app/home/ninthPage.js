@@ -5,7 +5,7 @@ import changelog from '../../images/drivemond-version-changelog.webp';
 
 const NinthPage = () => {
   return (
-    <div className='flex flex-col px-[10%] items-center h-screen'>
+    <div className='flex  h-auto flex-col px-[10%] items-center lg:h-screen'>
       <div className='flex flex-col text-[#00423A] py-8 text-center'>
         <h1 className='py-8 text-2xl'>
           Get All The <span className='font-bold text-[#00A08D] ' > Help & Support</span> You Need
@@ -15,7 +15,7 @@ const NinthPage = () => {
         </p>
       </div>
 
-      <div className='grid  text-[#FFFFFF] text-xl font-bold h-auto grid-cols-1 px-3 py-10 gap-11 lg:gap-5 lg:grid-cols-3'> 
+      <div className='grid  text-[#FFFFFF] text-xl   font-bold h-auto grid-cols-1 px-3 py-10 gap-11 lg:gap-5 lg:grid-cols-3'> 
         <figure className='flex h-auto border py-4  hover:border-[#00A08D] px-2 flex-col justify-center lg:h-[23rem]  lg:w-[17rem] rounded-2xl'>
           <div className='flex'>
             <img src={support} alt='Support' className='' />

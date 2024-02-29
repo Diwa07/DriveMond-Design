@@ -6,7 +6,7 @@ import c from "../../images/8th analytics.webp";
 
 const EighthPage = () => {
   return (
-    <div className="md:h-screen px-[10%] ">
+    <div className=" h-auto  lg:h-screen px-[10%] ">
       <div className="flex flex-col items-center text-center py-7 ">
         <h1 className="text-[28px] text-[#00423A] ">
           <span className="text-[#00A08D] font-bold "> Why Choose</span>{" "}
@@ -17,7 +17,7 @@ const EighthPage = () => {
           convenience along their journey with the solution.
         </p>
       </div>
-      <div className="grid grid-cols-1 text-[#006156] lg:grid-cols-2">
+      <div className="grid grid-cols-1  text-[#006156] lg:grid-cols-2">
         <div className="grid grid-rows-3 px-4 ">
           <div className="flex flex-col items-center md:gap-2 md:flex-row ">
             <div className=" h-[6rem] items-center md:w-[7rem] flex ">
