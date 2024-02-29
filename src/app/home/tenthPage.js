@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+
+
+
 const TenthPage = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -26,7 +29,7 @@ const TenthPage = () => {
     },
   ];
 
-  const toggleAccordion = (index) => {
+  const toogle = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
@@ -45,7 +48,7 @@ const TenthPage = () => {
           >
             <div
               className="flex items-center justify-between p-4 text-center cursor-pointer"
-              onClick={() => toggleAccordion(index)}
+              onClick={() => toogle(index)}
             >
               <h2 className="text-lg font-semibold text-center">
                 {item.title}

@@ -31,7 +31,7 @@ const Pricing = () => {
       <div className=" mt-[2rem]    flex flex-col items-center">
             <div className="flex flex-col px-4 text-center ">
               <h1 className="text-3xl font-[24px] py-4">
-                <span className="text-[#00A08D] text-4xl">DriveMond</span>
+                <span className="text-[#00A08D] text-4xl">DriveMond  </span>
                 Script Pricing
               </h1>
               <h1 className="py-4  text-[1rem] lg:text-xl mb-5">
