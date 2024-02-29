@@ -7,7 +7,7 @@ const EleventhPage = () => {
  
         <div className='w-full flex flex-col p-3 md:p-5 justify-center items-center rounded-2xl h-[50%] 'style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center'  }}  >
 
-         <div className='flex flex-col py-3  md:py-7 text-[#FFFFFF] text-[40px]' >
+         <div className='flex flex-col py-3  md:py-7 text-[#FFFFFF] text-2xl md:text-[40px]' >
          <h1 className='py-3 md:py-7' >
             Start Your <span className='font-bold' >   Ride Sharing</span>
             </h1>

@@ -4,7 +4,7 @@ import drive from "../../images/drive.webp";
 const PriceSecondpage = () => {
   return (
     <div> <div className="h-[auto] w-[100%]  border  lg:mt-0 mt-5    flex justify-center py-7 bg-[#D0F4EE] ">
-    <div className="w-[75%]   ">
+    <div className=" w-[80%] md:w-[75%]   ">
       <center className="text-2xl py-6 text-[#00423A]">
         DriveMond Driver App-  <span className="text-[#00A08D] font-bold " > Addon</span> 
       </center>
@@ -21,7 +21,7 @@ const PriceSecondpage = () => {
             </p>
           </div>
             <div className="flex items-center justify-end md:justify-center">
-            <button className="h-[2rem] flex  items-center  lg-px-7 px-4   lg:font-bold  lg:text-xl  rounded-md text-white hover:bg-[#00423A] bg-[#006156]">
+            <button className="h-[2rem] flex  items-center py-5 lg-px-7 px-5   lg:font-bold  lg:text-xl  rounded-md text-white hover:bg-[#00423A] bg-[#006156]">
               Buy Now
             </button>
           </div>
