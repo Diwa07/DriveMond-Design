@@ -1,0 +1,70 @@
+; (function ($) {
+
+    $(document).ready(function () {
+
+        if ($('body').hasClass('search')) {
+            return;
+        }
+
+        // toastr options
+        toastr.options = {
+            "closeButton": true,
+            "newestOnTop": false,
+            "positionClass": "toast-bottom-right",
+            "preventDuplicates": false,
+            "extendedTimeOut": "2000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+
+       
+
+        // Wrapper Link
+        $('div[sa-element-wrapper-link]').click(function () {
+            var encoded_link = $(this).attr('sa-element-wrapper-link');
+            var link_attr = JSON.parse(encoded_link);
+            var link_url = link_attr.url;
+            var link_target = link_attr.is_external == 'on' ? '_blank' : '_self';
+            window.open(link_url, link_target);
+        });
+
+		$('i.copy_to_clipbord').click(function (e) {
+
+            if ($(this).parent().siblings('.license_key').text().length > 0) {
+                var textToCopy = $(this).parent().siblings('.license_key').text().trim();
+                console.log(textToCopy);
+
+                var textarea = $('<textarea>').val(textToCopy).appendTo('body').select();
+
+                navigator.clipboard.writeText(textToCopy).then(function () {
+                    toastr.success('License Key Copied!', '', { timeOut: 5000 });
+                }).catch(function (err) {
+                    console.error('Unable to copy text: ', err);
+                }).finally(function () {
+                    textarea.remove();
+                });
+            }
+        })
+
+        $('i.username_copy_to_clipbord').click(function (e) {
+
+            if ($(this).siblings('.username').text().length > 0) {
+                var userNameToCopy = $(this).siblings('.username').text().trim();
+                
+                var textarea = $('<textarea>').val(userNameToCopy).appendTo('body').select();
+
+                navigator.clipboard.writeText(userNameToCopy).then(function () {
+                    toastr.success('Username Copied!', '', { timeOut: 5000 });
+                }).catch(function (err) {
+                    console.error('Unable to copy text: ', err);
+                }).finally(function () {
+                    textarea.remove();
+                });
+            }           
+        })
+		
+		
+	})
+})(jQuery);

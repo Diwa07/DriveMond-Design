@@ -3,12 +3,12 @@ import bg from '../../images/bg.webp'
 
 const EleventhPage = () => {
   return (
-    <div className='   py-[5%] px-[10%] flex  items-center ' >
+    <div className='   py-[5%] px-[10%] w-full flex  items-center ' >
  
         <div className='w-full flex flex-col p-5 justify-center items-center rounded-2xl h-[50%] 'style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center'  }}  >
 
          <div className='flex flex-col py-7 text-[#FFFFFF] text-xl md:text-[40px]' >
-         <h1>
+         <h1 className='py-7' >
             Start Your <span className='font-bold' >   Ride Sharing</span>
             </h1>
 
