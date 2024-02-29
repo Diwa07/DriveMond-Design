@@ -8,7 +8,7 @@ import laravel from "../../images/laravel.png";
 import map from "../../images/map.png";
 const ThirdPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-5 mt-4 text-2xl text-black md:text-2xl">
+    <div className="flex flex-col items-center justify-center px-5 mt-4 text-2xl text-black lg:text-2xl">
       <h1 className="flex flex-col px-8 text-center md:px-5">
         <p>Developed Using Latest Tech for Seamless &nbsp;</p>
         <p>
@@ -19,10 +19,10 @@ const ThirdPage = () => {
           Operation
         </p>
       </h1>
-      <div className="h-auto md:p-4  flex  justify-center mt-[2rem] w-full ">
+      <div className="h-auto lg:p-4  flex  justify-center mt-[2rem] w-full ">
         <div className="px-[7%]  ">
-          <div className="flex  md:flex-row flex-col gap-[2rem] justify-center items-center   ">
-            <ul  className="grid md:grid-cols-5  grid-cols-3   gap-9 text-[1.2rem]   py-10 bg-[#EAFBF9]  px-4 rounded-2xl  text-[#003F37] font-bold text-center ">
+          <div className="flex  lg:flex-row flex-col gap-[2rem] justify-center items-center   ">
+            <ul  className="grid lg:grid-cols-5  grid-cols-3   gap-9 text-[1.2rem]   py-10 bg-[#EAFBF9]  px-4 rounded-2xl  text-[#003F37] font-bold text-center ">
               <li className="flex flex-col items-center ">
                 <img src={php} alt="" className="w-[6rem]  h-[6rem] px-5 py-4 bg-white " />
                 PHP

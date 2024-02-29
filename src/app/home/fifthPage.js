@@ -4,8 +4,8 @@ import React from 'react'
  import { TbTruckDelivery } from "react-icons/tb";
 const FifthPage = () => {
   return (
-    <div className='h-auto mt-6 md:h-screen' >
-    <div className="flex flex-col items-center pb-4 border border-black md:h-screen "style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center'  }}>
+    <div className='h-auto mt-6 lg:h-screen' >
+    <div className="flex flex-col items-center pb-4 border border-black lg:h-screen "style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center'  }}>
 <div className='mt-[4rem] px-5  text-white text-center  text-2xl' >
    <h1 className='font-bold text-[2rem] ' >
    Let’s Discover DriveMond’s Business Potential
