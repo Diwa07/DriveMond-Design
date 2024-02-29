@@ -23,20 +23,18 @@ const Pricing = () => {
   };
 
   return (
-    < >
+    <div className="flex flex-col min-h-screen " >
 
 
-      <div className="h-auto relative    text-[#ffffffe3] " style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center' ,  }} >
-        <div className="absolute top-0 "  >
- </div>
- <div className="w-full ">
-          <div className=" mt-[2rem]    flex flex-col items-center">
+      <div className="flex-1 bg-cover bg-center   text-[#ffffffe3] " style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center' ,  }} >
+      <div className="h-screen/2 lg:h-[60vh]">
+      <div className=" mt-[2rem]    flex flex-col items-center">
             <div className="flex flex-col px-4 text-center ">
-              <h1 className="text-3xl font-[24px] py-7">
+              <h1 className="text-3xl font-[24px] py-4">
                 <span className="text-[#00A08D] text-4xl">DriveMond</span>
                 Script Pricing
               </h1>
-              <h1 className="py-4  text-[1rem] lg:text-xl mb-7">
+              <h1 className="py-4  text-[1rem] lg:text-xl mb-5">
                 <p className="mb-2">
                   Purchase the DriveMond script in the best package that
                 </p>
@@ -67,16 +65,27 @@ const Pricing = () => {
                   </p>
                 </div>
 
-                {showAnnual && (
+             
+              </div>
+            </div>
+           
+          
+          </div>
+
+      </div>
+      </div>
+
+      <div className="flex-1  mt-[-4rem] md:px-[2%] px-[5%] lg:px-[7%] "> 
+      {showAnnual && (
                   <div className="grid justify-start grid-cols-1 sm:items-center md:grid-cols-3">
                     {Annualprices &&
                       Annualprices.map((item, id) => {
                         return (
                           <div
-                            className={` text-black border-[1px]  border-[#00423A]  rounded-xl mb-5 flex flex-col justify-between py-5 px-3 sm:px-5 ${
+                            className={` text-black border-[1px] relative border-[#00423A]  rounded-xl mb-5 flex flex-col justify-between py-5 px-3 sm:px-5 ${
                               id === 1
                                 ? " h-auto lg:h-[35rem] text-white "
-                                : " h-auto lg:h-[31rem] text-[black] "
+                                : " h-auto lg:h-[32rem] text-[black] "
                             }  w-auto sm:w-full ${
                               id === 1 ? "bg-[#00A08D] " : "bg-[white]"
                             } ${
@@ -88,25 +97,36 @@ const Pricing = () => {
                                 id === 1 ? " text-[white]" : "text-[#00A08D]"
                               } flex `}
                             >
-                              <div className="grid grid-cols-2 ">
+                              <div className="grid items-end grid-cols-2 ">
                                 <div>
-                                  <li className="mb-2 text-3xl ">
+                                  <li className="mb-2 text-3xl md:text:2xl lg:text-3xl ">
                                     {item.type}
                                   </li>
                                   <strike className="text-2xl">
-                                    {item.discountedPrice}
+                                  {item.price} 
                                   </strike>
                                   <li className="mb-2 text-4xl font-bold">
-                                    {item.price}
+                                   {item.discountedPrice}
                                   </li>
                                   <li className="mb-2 text-2xl ">
                                     {item.saving}
                                   </li>
                                 </div>
 
-                                <div>
-                                  <img src={img} alt="" />
+                               
+                               <div className="  flex h-[80%] w-[80%] " >
+                                  <img src={item.image} alt=""  className="" /> 
+                                  {item.recommended === true ? (
+  <div className="absolute right-1 top-1  rounded-xl bg-[#42FFD3]">
+    <h1 className="flex justify-center items-center font-bold p-3 text-[#00423A]">Recommended</h1>
+  </div>
+) : item.mostPopular === true ? (
+  <div className="absolute right-4 top-1 mt-2 rounded-xl bg-[#00D9BF]">
+    <h1 className="flex items-center justify-center p-3 font-bold text-white">Most Popular</h1>
+  </div>
+) : null}
                                 </div>
+                               
                               </div>
                             </ul>
                             <hr
@@ -155,10 +175,10 @@ const Pricing = () => {
                       Lifetimeprices.map((item, id) => {
                         return (
                           <div
-                            className={` text-black border-[1px] border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-3 sm:px-5 ${
+                            className={` text-black border-[1px]    relative border-[#00423A] rounded-xl mb-5 flex flex-col justify-between py-5 px-3 sm:px-5 ${
                               id === 2
                                 ? " h-auto lg:h-[35rem] text-white "
-                                : " h-auto lg:h-[31rem] text-[black] "
+                                : " h-auto lg:h-[32rem] text-[black] "
                             }  w-auto sm:w-full ${
                               id === 2 ? "bg-[#00A08D] " : "bg-[white]"
                             } ${
@@ -170,25 +190,35 @@ const Pricing = () => {
                                 id === 2 ? " text-[white]" : "text-[#00A08D]"
                               } flex `}
                             >
-                              <div className="grid grid-cols-2">
+                              <div className="grid items-end grid-cols-2">
                                 <div>
-                                  <li className="mb-2 text-3xl ">
+                                  <li className="mb-2 text-3xl md:text-2xl lg:text-3xl ">
                                     {item.type}
                                   </li>
                                   <strike className="text-2xl">
-                                    {item.discountedPrice}
+                                      {item.price}
                                   </strike>
                                   <li className="mb-2 text-4xl font-bold">
-                                    {item.price}
+                                  {item.discountedPrice} 
                                   </li>
                                   <li className="mb-2 text-2xl ">
                                     {item.saving}
                                   </li>
                                 </div>
 
-                                <div>
-                                  <img src={img} alt="" />
-                                </div>
+                                <div className="    flex h-[80%] w-[80%] " >
+                                  <img src={item.image} alt=""  className="" /> 
+                                  {item.recommended === true ? (
+  <div className="absolute right-4 top-0 mt-2 rounded-xl bg-[#42FFD3]">
+    <h1 className="flex justify-center items-center font-bold p-3 text-[#00423A]">Recommended</h1>
+  </div>
+) : item.popular === true ? (
+  <div className="absolute right-4 top-0 mt-2 rounded-xl bg-[#00D9BF]">
+    <h1 className="flex items-center justify-center p-3 font-bold text-white"> Popular</h1>
+  </div>
+) : null}
+                                                                 </div>
+                                                                
                               </div>
                             </ul>
                             <hr
@@ -229,17 +259,12 @@ const Pricing = () => {
                         );
                       })}
                   </div>
-                )}
-              </div>
-            </div>
-           
-          
-          </div>
-        </div>
-        
+                )} {/* Adjust this height as needed */}
       </div>
+        
+      
 
-    </>
+    </div>
   );
 };
 

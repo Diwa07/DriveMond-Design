@@ -7,9 +7,9 @@ const FifthPage = () => {
     <div className='h-auto mt-6 lg:h-screen' >
     <div className="flex flex-col items-center pb-4 border border-black lg:h-screen "style={{ backgroundImage: `url(${bg})` , backgroundSize: 'cover', backgroundPosition: 'center'  }}>
 <div className='mt-[4rem] px-5  text-white text-center  text-2xl' >
-   <h1 className='font-bold text-[2rem] ' >
-   Let’s Discover DriveMond’s Business Potential
-   <h2 className='mt-8 text-xl font-normal text-center ' >
+   <h1 className='text-[2rem] ' >
+   Let’s Discover DriveMond’s <span  className='font-bold '> Business Potential</span> 
+   <h2 className='mt-8 text-[20px] font-normal text-center ' >
    With DriveMond’s two dynamic modules, you can do various businesses and unlock the utmost potential.
    </h2>
 

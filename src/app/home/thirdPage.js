@@ -10,7 +10,7 @@ const ThirdPage = () => {
   return (
     <div className="flex flex-col items-center justify-center px-5 mt-4 text-2xl text-black lg:text-[28px]">
       <h1 className="flex flex-col px-8 text-center md:px-5">
-        <p>Developed Using Latest Tech for Seamless &nbsp;</p>
+        <p className="py-5" >Developed Using Latest Tech for Seamless &nbsp;</p>
         <p>
           
           <span className="text-[#00A08D]  text-center font-bold ">

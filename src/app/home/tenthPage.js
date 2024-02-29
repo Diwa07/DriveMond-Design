@@ -21,7 +21,7 @@ const TenthPage = () => {
     },
     {
       title:
-        "I have multiple clients. As a developer, which license should I need?",
+        " 4. I have multiple clients. As a developer, which license should I need?",
       content: "For multiple clients' you need to purchase agency package.",
     },
   ];
@@ -40,7 +40,7 @@ const TenthPage = () => {
           <div
             key={index}
             className={`mb-4 text-[${
-              openIndex === index ? "#000000 , border-[#7FB0AA] " : "#00A08D"
+              openIndex === index ? "text-[#000000] , border-[#7FB0AA] " : "#00A08D"
             }] border hover:border-[#7FB0AA] rounded`}
           >
             <div

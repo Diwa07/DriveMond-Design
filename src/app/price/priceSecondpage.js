@@ -4,18 +4,18 @@ import drive from "../../images/drive.webp";
 const PriceSecondpage = () => {
   return (
     <div> <div className="h-[auto] w-[100%]  border  lg:mt-0 mt-5    flex justify-center py-7 bg-[#D0F4EE] ">
-    <div className=" w-[90%] md:w-[75%]   ">
+    <div className=" w-[90%] lg:w-[75%]   ">
       <center className="text-2xl py-6 text-[#00423A]">
         DriveMond Driver App-  <span className="text-[#00A08D] font-bold " > Addon</span> 
-      </center>
-      <div className="grid grid-cols-1 gap-5 py-1 mt-3 lg:grid-cols-2">
+      </center> 
+      <div className="grid grid-cols-1 gap-5 py-1 mt-3 md:grid-cols-2">
         <div className="bg-[#96E2D6] flex justify-between md:items-center p-2 h-fit flex-col md:flex-row  md:px-5 rounded-2xl py-[2rem] md:h-[11rem]">
           <div className="flex justify-between w-full " >
           <div className="flex " >
           <div className="h-[4rem]  flex w-[4rem]"> <img src={drive} alt="" /></div>
             <p className="text-2xl ml-3 text-[#00A08D]">
               Annual
-              <p className="flex gap-3 text-3xl font-bold">
+              <p className="flex gap-3 text-3xl font-bold md:flex-col lg:flex-row">
                 <strike>$53</strike> <span className="text-[#00423A]" >  $39</span>
               </p>
             </p>
@@ -34,7 +34,7 @@ const PriceSecondpage = () => {
           <div className="h-[4rem]  flex w-[4rem]"> <img src={drive} alt="" /></div>
             <p className="text-2xl ml-3 text-[#00A08D]">
               Lifetime
-              <p className="flex gap-3 text-3xl font-bold">
+              <p className="flex gap-3 text-3xl font-bold md:flex-col lg:flex-row">
                 <strike>$199</strike> <span className="text-[#00423A]" >  $99</span>
               </p>
             </p>

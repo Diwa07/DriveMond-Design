@@ -62,11 +62,11 @@ const SeventhPage = () => {
     
 <p className="py-7 text-2xl text-[#00423A]  "> SMS Gateways </p> 
      <div className="flex flex-wrap justify-center gap-4 " >
-     <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={twilio} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={factor} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={nexmo} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={msg91} alt=""/></div> 
-      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  "><img src={releans} alt=""/></div> 
+     <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6 gap-5 "><img src={twilio} alt=""/> <div className="border-[2px] border-white h-17" ></div> </div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  gap-5   "><img src={factor} alt=""/> <div className="border-[2px] border-white h-17" ></div> </div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  gap-5   "><img src={nexmo} alt=""/> <div className="border-[2px] border-white h-17" ></div> </div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  gap-5   "><img src={msg91} alt=""/> <div className="border-[2px] border-white h-17" ></div> </div> 
+      <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  gap-5   "><img src={releans} alt=""/> <div className="border-[2px] border-white h-17" ></div> </div> 
      
      </div>
 </div>

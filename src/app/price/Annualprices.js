@@ -1,5 +1,9 @@
+ import basic from '../../images/drivemond-pricing-basic-icon.webp'
+ import combo from '../../images/drivemond-pricing-combo-icon-1.webp'
+ import agency from '../../images/drivemond-pricing-agency-icon-1.webp'
 const Annualprices = [
   {
+    image: basic,
     type: "Basic",
     price: "$133",
     discountedPrice: "$79",
@@ -15,6 +19,7 @@ const Annualprices = [
     ],
   },
   {
+    image:combo,
     type: "Combo",
     price: "$186",
     discountedPrice: "$111",
@@ -32,6 +37,7 @@ const Annualprices = [
     ],
   },
   {
+    image: agency,
     type: "Agency",
     price: "$930",
     discountedPrice: "$239",

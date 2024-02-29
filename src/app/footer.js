@@ -5,7 +5,7 @@ import { MdMarkEmailRead } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="md:h-screen flex flex-col mt-4 justify-center  text-[white] bg-[#00211D]">
+    <div className="md:h-screen/2 flex flex-col mt-4 justify-center  text-[white] bg-[#00211D]">
       <div className="h-full bg-[#00211D]  text-center px-[7%] py-[4%] grid-cols-1  gap-[2%] grid md:grid-cols-3 ">
         <div className="" >
           <h1 className="flex justify-center text-3xl "><img src={logo} alt="" className="h-11" /> </h1 > <p className="flex py-5 px-7 " >
