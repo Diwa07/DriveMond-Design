@@ -6,8 +6,8 @@ import { SiAmericanexpress } from "react-icons/si";
 import EleventhPage from '../home/eleventhPage';
 
 const DetailsPage = () => {
-  return (
-    <div className='px-[10%] flex flex-col items-center justify-center h-auto py-[7%]'>
+  return ( <>
+    <div className=' px-[5%] md:px-[10%] flex flex-col items-center justify-center h-auto py-[7%]'>
         <div className=' bg-[#F0FBFA] p-[4%]  items-center gap-8 md:flex-row flex-col h-auto md:h-[20rem] flex '>
             <div className=' md:w-[50rem] flex  justify-center  '  >
                 <img src={refud} alt=''  className='' />
@@ -17,7 +17,7 @@ const DetailsPage = () => {
 <h1 className='py-5 text-2xl font-bold ' >Our Transparent Refund Policy</h1>
 Your peace of mind matters to us. We are committed to putting our customers first. So, we proudly introduce a refund experience designed with your satisfaction in mind. Our transparent refund policy ensures a 100% money back guarantee within 14 days. So you can be confident with your DriveMond script purchase decision.</p>
 <div>
-    <h1 className='flex gap-4 text-4xl py-7 ' >Payment Options : <FaCcVisa /> <FaCcDiscover /> <SiAmericanexpress />
+    <h1 className='flex gap-4 md:text-4xl py-7 ' >Payment Options : <FaCcVisa /> <FaCcDiscover /> <SiAmericanexpress />
  </h1>
 </div>
 
@@ -25,9 +25,11 @@ Your peace of mind matters to us. We are committed to putting our customers firs
 
 
         </div>
-        <EleventhPage/>
+      
 
     </div>
+    <EleventhPage/>
+    </>
   )
 }
 
