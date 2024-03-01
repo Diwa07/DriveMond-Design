@@ -13,7 +13,6 @@ const Nav = () => {
       <nav className="flex py-3   justify-between   px-3 md:px-7 xl:h-20 items-center bg-[#FFFFFF] ">
         <div className="flex-shrink-0">
           <Link to="/">
-          
             <img src={logo} alt="logo" className="w-24 md:w-32" />
           </Link>
         </div>
@@ -55,7 +54,6 @@ const Nav = () => {
             {showNav && (
               <div className="absolute right-0 z-50  w-[60%] h-screen  bg-white border border-gray-300  top-2">
                 <div className="hover:text-[red] cursor-pointer mb-2  text-3xl flex justify-end px-7 py-1  ">
-                
                   <MdOutlineCancel
                     onClick={() => {
                       setShowNav(false);

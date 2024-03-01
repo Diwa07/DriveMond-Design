@@ -10,7 +10,7 @@ const EighthPage = () => {
       <div className="flex flex-col items-center text-center py-7 ">
         <h1 className="text-[28px] text-[#00423A] ">
           <span className="text-[#00A08D] font-bold "> Why Choose </span>
-           DriveMond?
+          DriveMond?
         </h1>
         <p className="text-[18px] text-[#758590] py-7 ">
           DriveMond ensures that all its users get absolute facilities and
@@ -23,25 +23,25 @@ const EighthPage = () => {
             <div className=" h-[6rem] items-center md:w-[7rem] flex ">
               <img src={a} alt="" className="" />
             </div>
-            <div className="text-center" >
+            <div className="text-center">
               <p className="py-5 text-xl text-[#00423A] font-semibold ">
                 Versatile Riding Experience for Riders
               </p>
-              <p className="text-[#758590]" >
+              <p className="text-[#758590]">
                 Passengers can request for a ride with a custom fare and get
                 driver requests at a convenience offer via the user app.
               </p>
             </div>
           </div>
           <div className="flex flex-col items-center md:gap-2 md:flex-row ">
-          <div className=" h-[7rem] items-center md:w-[7rem] flex ">
+            <div className=" h-[7rem] items-center md:w-[7rem] flex ">
               <img src={b} alt="" />
             </div>
-            <div className="text-center" >
-            <p className="py-5 text-xl text-[#00423A] font-semibold">
+            <div className="text-center">
+              <p className="py-5 text-xl text-[#00423A] font-semibold">
                 Flexibility and Fair Earnings for Drivers
               </p>
-              <p className="text-[#758590]" >
+              <p className="text-[#758590]">
                 The driver app is designed for efficiency, ensuring smooth
                 navigation, transparent earnings tracking, and bidding system.
               </p>
@@ -52,11 +52,11 @@ const EighthPage = () => {
             <div className="  flex h-[4.4rem] ">
               <img src={c} alt="" />
             </div>
-            <div className="text-center" >
-            <p className="py-5 text-xl font-semibold text-[#00423A]  ">
+            <div className="text-center">
+              <p className="py-5 text-xl font-semibold text-[#00423A]  ">
                 Multiple Revenue Streams for Admin
               </p>
-              <p className="text-[#758590]" >
+              <p className="text-[#758590]">
                 Apart from managing, monitoring, controlling entire business
                 process, admin can earn from both parcel and ride sharing
                 module.

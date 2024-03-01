@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 
-
-
-
 const TenthPage = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -35,15 +32,20 @@ const TenthPage = () => {
 
   return (
     <div className="flex flex-col px-[10%] items-center  ">
-          <h1 className="text-[28px] py-9 ">
-        <span className="text-[#00A08D] text-[38px] font-[bold] " >Frequently Asked Questions</span> About DriveMond
+      <h1 className="text-[28px] py-9 ">
+        <span className="text-[#00A08D] text-[38px] font-[bold] ">
+          Frequently Asked Questions
+        </span>{" "}
+        About DriveMond
       </h1>
       <div className="w-full py-8 ">
         {items.map((item, index) => (
           <div
             key={index}
             className={`mb-4 text-[${
-              openIndex === index ? "text-[#000000] , border-[#7FB0AA] " : "#00A08D"
+              openIndex === index
+                ? "text-[#000000] , border-[#7FB0AA] "
+                : "#00A08D"
             }] border hover:border-[#7FB0AA] rounded`}
           >
             <div
